@@ -1,0 +1,439 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noticebg{
+
+
+    background-image: url(./components/noticeboard/noticebg.png);
+}
+.biglogobg{
+
+    background-image: url(./components/biglogo/bgimg_aboutus.avif);
+background-size: cover;
+/* height: 720px; */
+height: auto;
+
+}
+
+
+
+   .text-shadow1{
+
+      text-shadow: 1px 1px 2px rgba(255, 235, 235, 0.696);
+   }
+.text-shadow:hover{
+
+      text-shadow: 1px 1px 2px rgba(255, 235, 235, 0.696);
+   }
+
+   .achievementbg1{
+
+    background-image: url(./components/achievementstart/achievementbg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 5px #000308;
+    width: 100%;
+   }
+
+   
+ .flowSection {
+  height: 200vh;
+  width: 100vw;
+  /* background-image: url("./image/bg.jpg"); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flowArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+  width: 100%;
+}
+.flowMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.flowDiv {
+  height: 15rem;
+  width: 15rem;
+  background: #141422;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 80px 20px rgb(25, 76, 206);
+  font-size: 3rem;
+  position: relative;
+  margin-inline: 40px;
+}
+.flowArrow {
+  align-self: last baseline;
+  position: absolute;
+  display: inline-block;
+  width: 0.4rem;
+  height: 24rem;
+  background: white;
+  bottom: -16rem;
+  right: -8.4rem;
+  transform: rotate(-56deg);
+}
+.flowPara {
+  width: 40%;
+  /* text-align: center; */
+  font-size: 1.3rem;
+  
+  /* background-color: blue; */
+  border-radius: 10px;
+}
+.flowMain:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.flowMain:nth-child(even) .flowDiv {
+box-shadow: 0 0 80px 20px rgb(127, 52, 239);
+}
+.flowMain:nth-child(even) .flowDiv .flowArrow {
+  bottom: -16rem;
+  right: 23rem;
+  transform: rotate(56deg);
+}
+
+
+.indpro-bg{
+  backdrop-filter: blur(10px) ;
+  background-image: url(./components/projectcard/indprojectbg.jpg);
+ }
+.probox-shadow:hover{
+  box-shadow:0 0 13px 0 white;
+  border-radius: 15px;
+}
+
+@keyframes grow{
+
+  0%{
+      transform: scaleX(0);
+  }
+}
+.container{
+
+  position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam&family=Titillium+Web:ital,wght@0,200;0,400;1,600&display=swap');
+.project-link:hover .item-bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.item-title {
+  padding: 15px  ;
+  overflow: hidden;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 20px;
+
+  z-index: 20;
+  position: relative;
+}
+.item-bg {
+  height: 128px;
+  width: 128px;
+  
+  z-index: 2;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  border-radius: 50%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.text-neonpro{
+  color: #ffffff;
+  text-shadow:
+      0 0 3px #fff,
+      0 0 5px #fff,
+      0 0 7px #fff,
+      0 0 10px #a200ff,
+      0 0 12px #a200ff,
+      0 0 20px #a200ff,
+      0 0 30px #a200ff,
+      0 0 50px #a200ff;
+}
+
+ .bg-statistics {
+   backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(198, 232, 202, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow:0 0 7px 0 white;
+
+ }
+ 
+
+.member-morph{
+
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180z%);
+  background-color: #11113A;
+  border-radius: 12px;
+  border: 4px solid #5566B8;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
+
+}
+ 
+  
+.bg-tech{
+  background-image: url(./components/TechMembers/member-bg.png);
+background-repeat: repeat;
+background-size: contain;
+}
+
+.team-switch-border:hover{
+
+  backdrop-filter: blur(10px) ;
+  border-radius:200px;
+    box-shadow:0 0 13px 0 white;
+} 
+
+.grouppro-bg{
+
+  background-image: url(./components/projectcard/probackp1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+overflow-y: scroll;
+
+
+}
+
+.group-blur{
+
+  backdrop-filter: blur(18px) ;
+  box-shadow:inset   0 0 8px  white;
+
+}
+
+.project-bg{
+  background-image: url(./components/projectcard/probackp1.png);
+background-size: cover;
+background-repeat: no-repeat;  
+background-attachment: fixed;
+overflow-y: scroll;
+}
+
+.bg-testimonial{
+background-size: cover;
+  background-image: url(./components/testimonialMobile/dynamic-wang-_F7Z0hnFpRI-unsplash.jpg);
+}
+
+.bg-test-card {
+
+  backdrop-filter: blur(18px) ;
+background-color: #000308a2;
+}
+
+/* @media (max-width: 767px) {
+  
+} */
+
+.bg-blog-small{
+  background-image: url(./components/blogs/blog_bg.png);
+  background-size: cover;
+background-repeat: no-repeat;  
+background-attachment: fixed;
+overflow-y: scroll;
+}
+
+.box-shadow-blogs{
+  backdrop-filter: blur(18px) ;
+  box-shadow:inset   0 0 5px  white;
+background-color: #0000001f;
+}
+
+.journey-bg{
+  background-image: url(./components/journey/journey_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  /* overflow-y: scroll; */
+}
+
+.journey-morph{
+  backdrop-filter: blur(18px) ;
+  box-shadow:inset   0 0 5px  white;
+background-color: #b4b4b44d;
+
+}
+
+    
+@media (min-width: 761px) {
+  .box-shadow1 {
+    backdrop-filter: blur(10px);
+    border-radius: 200px;
+    box-shadow: 0 0 13px 0 white;
+    background-color: #00030864;
+  }
+}
+
+@media (max-width: 760px) {
+  .box-shadow1 {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #00030888; 
+    backdrop-filter: blur(7px);
+  /* background: transparent; */
+  box-shadow: 0 0 13px 0 white;
+}
+}
+
+@media (max-width: 760px) {
+  .menu-shadow {
+    /* background-color: #000308d7; 
+    backdrop-filter: blur(16px); */
+    backdrop-filter: blur(16px);
+
+}
+}
+
+.entry-section{
+  /* height: 1920px; */
+  /* z-index: -1; */
+background-image: url(./pages/home/entry_bg.gif);
+height: 700px;
+background-size: cover;
+}
+.aboutus-entry{
+  background-image: url(./pages/aboutus/aboutus_entry.png);
+  background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.aboutus-morph{
+
+  backdrop-filter: blur(16px);
+background-color: rgba(0, 0, 0, 0.29);
+box-shadow: 0 0 9px 0 white;
+
+}
+
+.aboutus-title-morph {
+
+  color: #ffffff;
+  text-shadow:
+      0 0 1px #fff,
+      0 0 3px #fff,
+      0 0 2px #fff,
+      0 0 10px #00ccff,
+      0 0 12px #00ccff,
+      0 0 20px #00ccff,
+      0 0 30px #00ccff,
+      0 0 50px #00ccff;
+}
+.blog-start-bg{
+
+  background-image: url(./pages/studentblogs/blog_formobile.png);
+  background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.blog-title-morph{
+
+  color: #ffffff;
+  text-shadow:
+      0 0 1px #fff,
+      0 0 3px #fff,
+      0 0 2px #fff,
+      0 0 10px #ff5900,
+      0 0 12px #ff772e,
+      0 0 20px #ff772e,
+      0 0 30px #ff772e,
+      0 0 50px #ff772e;
+}
+
+@media (max-width: 760px) {
+.project-bg-mobile{
+  background-image: url(./components/projectstart/project-bgMobile.png);
+  background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+
+}}
+
+.achievementbg2{
+  background-image: url(./components/achievementstart/achievent_bgformobile.png);
+  background-size: cover;
+background-repeat: no-repeat;
+height: 105vh;
+}
+
+.achievement-title-morph{
+
+  color: #ffffff;
+  text-shadow:
+      0 0 1px #fff,
+      0 0 3px #fff,
+      0 0 2px #fff,
+      0 0 10px #6effdb,
+      0 0 12px #6effdb,
+      0 0 20px #6effdb,
+      0 0 30px #6effdb,
+      0 0 50px #6effdb;
+}
+
+@media (min-width: 760px){
+.teamswitcher_bg{
+
+  background-image: url(./components/TeamSwitcher/TeamSwitcher_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+
+}
+}
+
+.achieve-shadow{
+  backdrop-filter: blur(16px);
+  background-color: rgba(0, 0, 0, 0.29);
+  box-shadow: 0 0 9px 0 white;
+}
+
+
+
+@media (min-width: 1280px) {
+  .achievesummary{
+  
+    background-image: url(./components/AchieveSummary/Achievement.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+  }
+  }
+
+    
+@media (max-width: 1024px) {
+  .achievesummary{
+  
+    background-image: url(./components/AchieveSummary/Achievement.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+  }
