@@ -1,16 +1,20 @@
-
-import ksac from "./KSAC_logo.png"
-import keslogo from "./keslogo.png"
-import kiitlogo from "./kiit_logo.png"
-import { Link } from "react-router-dom";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from "react-router-dom";
+import ksac from "./KSAC_logo.png";
+import keslogo from "./keslogo.png";
+import kiitlogo from "./kiit_logo.png";
 
 function NavbarStuBlogs() {
     const [menuVisible, setMenuVisible] = useState(false);
+    const location = useLocation();
 
     const toggleMenu = () => {
         setMenuVisible(!menuVisible);
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
 
     return (
         <nav className="mx-auto rounded-none bg-transparent sticky box-shadow1 z-50 md:top-5 md:mb-8 lg:w-[78%] xl:w-[65%] sm:w-[85%]  h-16 md:items-center text-center md:justify-between md:rounded-full sm:text-sm   md:font-bold">
