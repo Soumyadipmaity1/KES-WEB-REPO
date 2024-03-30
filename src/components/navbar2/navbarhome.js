@@ -36,13 +36,13 @@ function NavbarHome() {
                             <Link to="/achievement" className="xl:ml-[10px] lg:mx-[8px] mt-4  cursor-pointer box-shadow3 px-2 text-white hover:text-green-400 text-shadow start transition duration-500">ACHIEVEMENTS</Link>
                         </div>
                     </div>
-                    <div className="md:hidden flex pt-2 pr-3">
-                        <button className="outline-none mobile-menu-button" onClick={toggleMenu}>
-                            <svg className="w-7 h-7  text-gray-600 hover:text-blue-500 fill-current" viewBox="0 0 24 24" stroke="currentColor">
-                                <path d="M4 6h16M4 12h16M4 18h16"></path>
-                            </svg>
-                        </button>
-                    </div>
+                    <div className="md:hidden flex items-center pt-2 pr-3">
+    <button className="outline-none focus:outline-none" onClick={toggleMenu}>
+        <svg className="w-8 h-8 text-white hover:text-blue-500 transition-colors duration-300 ease-in-out" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+</div>
                 </div>
             </div>
             <div className={`md:hidden bg-black mobile-menu ${menuVisible ? '' : 'hidden'}`}>
