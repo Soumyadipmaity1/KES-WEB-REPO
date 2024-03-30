@@ -30,7 +30,7 @@ export default function IndProjects() {
           github=""
           linkedin="linkedin_link"
           instagram="instagram_link"
-          Document=""
+          Document="https://drive.google.com/drive/folders/15NZa-af9klFiq7N-D4abeAeD1hxJ9Fy6"
         />
         <IndProjectcard
           img={abhinav}
@@ -40,6 +40,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://docs.google.com/document/d/1yF34EUY0SJfXp3ohMZtSFFPiJO9AjR1fMbrMZI6Y54s/edit"
         />
         <IndProjectcard
           img={arnuv}
@@ -49,6 +50,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/folders/1dfZFlKlgMjHtbn8EEl9zrME6Ojn6SiKR"
         />
         <IndProjectcard
           img={bittu}
@@ -58,6 +60,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://docs.google.com/presentation/d/1AUrnPVlWS952kMQBnmjRfsP7vbL_R28p/edit#slide=id.p1"
         />
         <IndProjectcard
           img={soumya}
@@ -67,6 +70,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/folders/128nSf4cbzsj-wXR1wgjauZXcU-bIE2pd"
         />
         <IndProjectcard
           img={junaid}
@@ -76,6 +80,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/folders/1FLwxQ1_bSB82POh15eb9ZItgg4L3N6RP"
         />
         <IndProjectcard
           img={aman}
@@ -85,6 +90,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/folders/1zW7oF3TwoYikF3x-GnTEPHHwn75oz-G7"
         />
         <IndProjectcard
           img={prathmesh}
@@ -94,6 +100,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/folders/1mlF3j8u5XyoY44x2jJWwWgMtIZyKr3Jc"
         />
 
         <IndProjectcard
@@ -113,6 +120,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/u/0/folders/1cz-6EGQ1tziRGqEWy1BSBAuw7HrjEu4rJ9hXJqxV80x4A8e2mFrhnF4d3_HpT6JDmC_-_ABm"
         />
         <IndProjectcard
           img={abhishekmohanty}
@@ -122,8 +130,18 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/u/0/folders/1cz-6EGQ1tziRGqEWy1BSBAuw7HrjEu4rJ9hXJqxV80x4A8e2mFrhnF4d3_HpT6JDmC_-_ABm"
         />
-
+    <IndProjectcard
+          img="https://hobbycomponents.com/images/forum/4x4x4V2/HCKITS0070.jpg"
+          title="Cooling System for Laptop"
+          name="Pallavi Ghosh"
+          id="2207011"
+          github="github_link"
+          linkedin="linkedin_link"
+          instagram="instagram_link"
+          Document="https://docs.google.com/document/d/1HsNdG0x9FgTLBdd9g_O-L1Y1ch8ih7Ie/edit"
+        />
         <IndProjectcard
           img={rishav}
           title="Automated Light"
@@ -132,6 +150,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://docs.google.com/document/d/1y4iuV4U1CYNHMFGNzkR3cPgvzDglwgUE/edit"
         />
         <IndProjectcard
           img={bishayan}
@@ -141,6 +160,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/u/0/folders/1cz-6EGQ1tziRGqEWy1BSBAuw7HrjEu4rJ9hXJqxV80x4A8e2mFrhnF4d3_HpT6JDmC_-_ABm"
         />
         <IndProjectcard
           img={viswanath}
@@ -150,6 +170,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/u/0/folders/1cz-6EGQ1tziRGqEWy1BSBAuw7HrjEu4rJ9hXJqxV80x4A8e2mFrhnF4d3_HpT6JDmC_-_ABm"
         />
         <IndProjectcard
           img={anirban}
@@ -159,6 +180,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://docs.google.com/document/d/1WZKLayGbI6YVc87uMPz8cY2OEBPypUnA/edit"
         />
         <IndProjectcard
           img={archish}
@@ -168,6 +190,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://docs.google.com/document/d/1U2o_kG4M3j0WkkJYJemppPB5VBIbysEK/edit"
         />
         <IndProjectcard
           img={anup}
@@ -177,6 +200,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/u/0/folders/1cz-6EGQ1tziRGqEWy1BSBAuw7HrjEu4rJ9hXJqxV80x4A8e2mFrhnF4d3_HpT6JDmC_-_ABm"
         />
         <IndProjectcard
           img={aritra}
@@ -186,6 +210,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/u/0/folders/1cz-6EGQ1tziRGqEWy1BSBAuw7HrjEu4rJ9hXJqxV80x4A8e2mFrhnF4d3_HpT6JDmC_-_ABm"
         />
         <IndProjectcard
           img={bishayan}
@@ -195,6 +220,7 @@ export default function IndProjects() {
           github="github_link"
           linkedin="linkedin_link"
           instagram="instagram_link"
+          Document="https://drive.google.com/drive/u/0/folders/1cz-6EGQ1tziRGqEWy1BSBAuw7HrjEu4rJ9hXJqxV80x4A8e2mFrhnF4d3_HpT6JDmC_-_ABm"
         />
       </div>
     </div>

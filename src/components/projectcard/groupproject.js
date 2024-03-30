@@ -20,21 +20,18 @@ const projects = [
       features: ['Enhanced Efficiency',
         'Large-scale Implementation',
         'Domestic Use',
-        ,'Sustainable Energy Solutions',
-        
-        
-        
-        
+        ,'Sustainable Energy Solutions',        
       ],
     },
     aim: {
       title: 'Aim',
       description: 'Our aim is to create a driver drowsiness detection system using eye blinking detection and Arduino algorithms. It activates alarms and halts the car to prevent accidents caused by driver fatigue' ,   documentationUrl: 'https://docs.google.com/document/d/14qLvQTLNsZLi5Bi5XFTeviOD3doX2xFj/edit',
-    documentationUrl:'https://drive.google.com/drive/folders/1IDLMkL_4Dv4otS3dlwE6VTjdd_Etee-TziN8-xUtuQUV1L2uk0jlSrJ_7FZVRcg8tdT0gICg'
     },
+    documentationUrl:'https://docs.google.com/document/d/1helMfzBZmYs_gnMHk2EbnmQjaJofg-GzOnl0N0qg4AQ/edit'
+
     },
   {
-    id: 1,
+    id: 2,
     name: 'HOME AUTOMATION',
     imageUrl: 'https://www.verdict.co.uk/wp-content/uploads/2019/09/home-automation-interest.jpg',
     teamMembers: [
@@ -62,7 +59,7 @@ const projects = [
     documentationUrl: 'https://docs.google.com/document/d/14qLvQTLNsZLi5Bi5XFTeviOD3doX2xFj/edit',
   },
   {
-    id: 2,
+    id: 3,
     name: 'INTELLIGENT ROOM CONTROL',
     imageUrl: 'https://www.blueprintrf.com/wp-content/uploads/2023/08/hotel-automation-streamlines-hospitality-workflow-1240x836.png',
     teamMembers: [
@@ -82,10 +79,10 @@ description:'Experience the future of room control with our Motion and Light Bas
       title: 'Aim',
       description: 'Our aim is to create a seamless and efficient room operating system that utilizes motion and light sensors to automate tasks, enhancing comfort, convenience, and energy efficiency in everyday living environments.',
     },
-    documentationUrl: 'https://docs.google.com/document/d/14qLvQTLNsZLi5Bi5XFTeviOD3doX2xFj/edit',
+    documentationUrl: 'https://docs.google.com/presentation/d/1QNOrKj9lsDL1TwKg3olC1BSAOq5Jdwt3/edit#slide=id.p1',
   },
   {
-    id: 2,
+    id: 4,
     name: 'LIGHT TRACKING SOLAR PANEL',
     imageUrl: 'https://circuitdigest.com/sites/default/files/projectimage_mic/Arduino-based-Sun-Tracking-Solar-Panel.jpg',
     teamMembers: [
@@ -105,8 +102,9 @@ description:'An Arduino solar tracker was designed and constructed in the curren
     },
     aim: {
       title: 'Aim',
-      description: 'To enhance efficiency, implement sun tracking on large PV panels for domestic and large-scale use, improving the solar energy harnessing and promoting sustainable energy solutions.'},   documentationUrl: 'https://docs.google.com/presentation/d/1qGL3T7XtBZKVSZ282H2KP_e9p9rhDpje/edit#slide=id.p2',
-      documentationUrl:'https://docs.google.com/presentation/d/1qGL3T7XtBZKVSZ282H2KP_e9p9rhDpje/edit#slide=id.p2'
+      description: 'To enhance efficiency, implement sun tracking on large PV panels for domestic and large-scale use, improving the solar energy harnessing and promoting sustainable energy solutions.'
+  },
+  documentationUrl:'https://docs.google.com/presentation/d/1qGL3T7XtBZKVSZ282H2KP_e9p9rhDpje/edit#slide=id.p1'
 
     },
 
@@ -134,12 +132,13 @@ description:'It involves designing an automatic fire and gas leak detection syst
     aim: {
       title: 'Aim',
       description: 'This project aims to create an automatic fire and gas leak detection system using Arduino microcontroller and safety devices. It prioritizes safety through smart alerting techniques, minimizing property damage.',
-  documentationUrl:'https://docs.google.com/document/d/1fNWm8r3QLtm431Wpf9FpHQ1RtqXPkdsVHaKm0uNUHuo/edit'
     },
+    documentationUrl:'https://docs.google.com/document/d/1fNWm8r3QLtm431Wpf9FpHQ1RtqXPkdsVHaKm0uNUHuo/edit'
+
     },
     
   {
-    id: 5,
+    id: 6,
     name: "Automatic Attendance System"    ,
     imageUrl: 'https://www.lystloc.com/blog/wp-content/uploads/2022/11/ezgif.com-gif-maker-6.webp',
     teamMembers: [
@@ -158,8 +157,9 @@ description:'This project implements an Automatic Attendance System using Python
     aim: {
       title: 'Aim',
       description: 'The aim is to create an efficient Automatic Attendance System using Python and OpenCV, enabling accurate recording of attendance through facial recognition technology.',
-  documentationUrl:'https://drive.google.com/drive/folders/1IDLMkL_4Dv4otS3dlwE6VTjdd_Etee-TziN8-xUtuQUV1L2uk0jlSrJ_7FZVRcg8tdT0gICg'
     },
+    documentationUrl:'https://drive.google.com/file/d/1WFp3AG4cNBXGiQzCWtGIP6XanSuvmLsS/view?usp=sharing'
+
     },
 ];
 

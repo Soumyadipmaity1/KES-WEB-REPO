@@ -1,4 +1,4 @@
-
+import HelplineButton from "../../components/HelplineButton/Helpline";
 import indbgpro from "./indprojectbg.jpg"
 import NavbarProject from "../../components/navbar2/navbarProject";
 import ProjectStart from "../../components/projectstart/projectstart";
@@ -13,6 +13,8 @@ import Footer from "../../components/footer/footer";
                
 <TabSwitchingComponent/>
 <Footer/>
+<HelplineButton/>
+
        </div>
 
     );

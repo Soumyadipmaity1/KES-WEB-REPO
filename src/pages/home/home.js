@@ -1,4 +1,5 @@
 import NavbarHome from "../../components/navbar2/navbarhome";
+import HelplineButton from "../../components/HelplineButton/Helpline";
 import ImageSlider from "../../components/Imageslider/imageslider";
 import Footer from "../../components/footer/footer";
 import NoticeBoard from "../../components/noticeboard/notice";
@@ -19,14 +20,15 @@ export default function Home(){
 <NoticeBoard/>
 <Prevevent/>
 <OurJourney/>
-<GuidingPillars/>
+<GuidingPillars/>   
 <div className="hidden lg:block">
 <StudentTestimonials/>
 </div>
-<div className="lg:hidden ">
+<div className="lg:hidden block   ">
     <MobileTestimonialSlider/>
 </div>
 <Footer/>
+<HelplineButton/>
 </div>
     );
 }

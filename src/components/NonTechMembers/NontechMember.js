@@ -57,7 +57,7 @@ const NonTechMembers = () => {
         },   {
             name: 'Keshav Kumar Singh',
             id: '22051521',
-            imageUrl: Soumyadip,
+            imageUrl: dummy,
             githubLink: 'https://github.com/example',
             linkedinLink: 'https://linkedin.com/example',
             instagramLink: 'https://instagram.com/example'

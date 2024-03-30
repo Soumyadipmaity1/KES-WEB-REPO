@@ -3,6 +3,8 @@ import Stu2 from './bishawayanbhaiya.jpg'
 import Quote1 from './quote.png'
 import Quote2 from './quote.svg'
 
+import { Link } from "react-router-dom";
+import React, { useState } from 'react';
 
 
 function StudentTestimonials() {

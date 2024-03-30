@@ -3,6 +3,7 @@ import NavbarStuBlogs from "../../components/navbar2/navbarStublogs";
 import Footer from "../../components/footer/footer";
 import Suravi from "./blog3.jpg";
 import rewant from "./blog4.jpg";
+import HelplineButton from "../../components/HelplineButton/Helpline";
 import bgstudentblogs from "./stublog7.png";
 export default function StuBlogs() {
   return (
@@ -36,6 +37,8 @@ export default function StuBlogs() {
         imagePath={rewant}
       />
       <Footer />
+      <HelplineButton/>
+
     </div>
   );
 }

@@ -18,17 +18,17 @@ function NavbarStuBlogs() {
             <div className="flex justify-between md:w-full md:justify-between md:px-16 px-8">
                 <div className="flex w-full md:justify-between">
                     <div>
-                        <ul className="md:flex justify-between">
-                            <li><img className=" md:h-[47px]  mx-[8px]  sm:h-[40px] text-shadow1 box-shadow1 bg-white  md:mt-[5px]  bg-transparent rounded-full py-[5px]   md:flex hidden " src={kiitlogo} alt="kiit logo" /></li>
-                            <li><img className="lg:h-[46px]  mx-[8px]  lg:py-[5px] text-shadow1 bg-white lg:flex hidden box-shadow1 md:mt-[5px] mt-2 " src={ksac} alt="KES LOGO" /></li>
-                            <li><img className="lg:h-12 h-12   mx-[8px] text-shadow1 box-shadow   md:mt-[5px] mt-2 " src={keslogo} alt="KES LOGO" /></li>
+                    <ul className="flex justify-between">
+                                <li><img className=" md:h-[47px] bg-white  mx-[8px]  sm:h-[40px] text-shadow1  md:mt-[5px]  bg-transparent rounded-full py-[5px]   md:flex hidden " src={kiitlogo} alt="kiit logo" /></li>
+                                <li><img className="lg:h-[46px] h-[47px] rounded-full py-[5px]  bg-white mx-[8px]  lg:py-[5px] text-shadow1  box-shadow  md:mt-[5px] mt-2 " src={ksac} alt="KES LOGO" /></li>
+                                <li><img className="lg:h-12 h-12   mx-[8px] text-shadow1 box-shadow md:mt-[5px] mt-2 " src={keslogo} alt="KES LOGO" /></li>
 
-                        </ul>
+                            </ul>
                     </div>
                     <div className="hidden  md:text-[10px]   xl:text-[14px] md:flex md:text-center">
                         <Link to="/" className="xl:mx-[12px] lg:mx-[8px]  cursor-pointer mt-4  text-shadow  text-white box-shadow2 px-2  hover:text-orange-500 start  ">HOME</Link>
-                        <Link to="/Aboutus" className="xl:mx-[12px] lg:mx-[8px] cursor-pointer px-2  text-shadow1   mt-4 box-shadow2 text-white  hover:text-orange-500 start transition duration-500">ABOUT US</Link>
-                        <Link to="/studentblogs" className="xl:mx-[12px] lg:mx-[8px] cursor-pointer px-2 mt-4 text-shadow box-shadow2 text-orange-500 start transition duration-500  ">STUDENT BLOGS</Link>
+                        <Link to="/Aboutus" className="xl:mx-[12px] lg:mx-[8px] cursor-pointer px-2  text-shadow   mt-4 box-shadow2 text-white  hover:text-orange-500 start transition duration-500">ABOUT US</Link>
+                        <Link to="/studentblogs" className="xl:mx-[12px] lg:mx-[8px] cursor-pointer px-2 mt-4 text-shadow1 box-shadow2 text-orange-500 start transition duration-500  ">STUDENT BLOGS</Link>
                         <Link to="/projects" className="xl:mx-[12px] lg:mx-[8px]  cursor-pointer text-shadow px-2 mt-4  box-shadow2 text-white hover:text-orange-500 start transition duration-500">PROJECTS</Link>
                         <Link to="/achievement" className="xl:ml-[10px] lg:mx-[8px] mt-4  cursor-pointer box-shadow3 px-2 text-white hover:text-orange-500 text-shadow start transition duration-500">ACHIEVEMENTS</Link>
                     </div>

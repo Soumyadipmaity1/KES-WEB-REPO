@@ -21,7 +21,7 @@ const AchieveSlider1 = () => {
    
     <div className='  '>
           
-    <div className=" bg-gray-500  xl:w-[500px] lg:w-[440px] md:w-[400px] w-[300px]  p-5 mx-auto my-auto xl:mt-10 lg:mt-16 " >
+    <div className=" bg-slate-200  xl:w-[500px] lg:w-[440px] md:w-[400px] w-[300px]  p-5 mx-auto my-auto xl:mt-10 lg:mt-16 " >
       <Slider {...settings}>
         <div className="">
 

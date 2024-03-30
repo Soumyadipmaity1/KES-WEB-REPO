@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import image1 from './slide_src1a.png'
 import image2 from './slide_src2.png'
-import image3 from './slide_src3aa.png'
+import image3 from './slide_src3a.png'
 import image4 from './slide_src4aa.png'
 
 import image5 from './slide_src5aa.png'

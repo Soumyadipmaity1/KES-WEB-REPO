@@ -12,7 +12,7 @@ export default function Achievestart(){
      <h1 class="text-white xl:text-7xl   lg:text-6xl text-5xl font-bold xl:pt-40 lg:pt-20 md:pt-40">ACHIEVEMENT</h1>
    </div>
  </header> */}
- <header class=" achievementbg2   flex md:hidden    justify-center text-center ">
+ <header class=" achievementbg2   flex lg:hidden    justify-center text-center ">
   
 
   <div class=" text-center flex items-center pb-">

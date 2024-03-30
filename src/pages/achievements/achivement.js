@@ -4,23 +4,25 @@ import AchieveSummary from "../../components/AchieveSummary/AchiveSummary";
 import AchievementCard from "../../components/AchieveCarda/AchieveCards";
 import AchieveFlow from "../../components/achieveflow/achieveflow";
 import AchieveImage from "../../components/AchieveCarda/AchieveImage";
+import HelplineButton from "../../components/HelplineButton/Helpline";
 import Footer from "../../components/footer/footer";
 import AchieveSlider1 from "../../components/AchieveSlider/AchieveSlider";
 import AchieveSlider2 from "../../components/AchieveSlider/AchievesSlider2";
 import AchieveSlider3 from "../../components/AchieveSlider/AchieveSlider3";
+import SummaryCards from "../../components/AchieveSummary/SummaryCards";
 export default function Achievement() {
   return (
     <div className="bg-[#000308] ">
-      {/* <div className="achievementbg1 "> */}
-
       <NavbarAchievement/>
       <Achievestart />
       {/* // </div> */}
       <AchieveSummary />
-
+<div className="lg:hidden">
+<SummaryCards/>
+</div>
       <AchieveFlow />
-      <div className="lg:block hidden">
-        <div className="grid grid-cols-2 xl:px-16  px-10 text-justify py-8">
+      <div className="lg:block hidden ">
+        <div className="grid grid-cols-2 cursor-pointer xl:px-16 lg:m-8 hover:bg-gray-900  achieve-shadow rounded-xl   px-10 text-justify py-8">
           <AchievementCard
             title="Winner, KAIROS"
             data1="KIIT FEST 7.O"
@@ -31,7 +33,7 @@ export default function Achievement() {
         <AchieveSlider3/>
 
         </div>
-        <div className="grid grid-cols-2 xl:px-16 px-10 text-justify py-8">
+        <div className="grid grid-cols-2 xl:px-16  lg:m-8 cursor-pointer hover:bg-gray-900  achieve-shadow rounded-xl px-10 text-justify py-8">
         <AchieveSlider2/>
 
           <AchievementCard
@@ -42,7 +44,7 @@ export default function Achievement() {
             details="KES  team with leader Dev Dashora  and members Shyam Barua, Sweta kumari secured the runner’s-up position at the Tech Tank event, which was held during XIM University's annual event, Synchronize 2.0. The competition revolved around presenting innovative ideas to the jury members through poster presentations, and our KES team honored to have idea recognized as the most innovative .For the excellent performance they were rewarded with cash prize and certificate respectively."
           />
         </div>
-        <div className="grid grid-cols-2 xl:px-16  px-10 text-justify py-8">
+        <div className="grid grid-cols-2 xl:px-16  lg:m-8 hover:bg-gray-900 cursor-pointer  achieve-shadow rounded-xl  px-10 text-justify py-8">
           <AchievementCard
             title="2nd Runner's Up, GamesFest"
             data1="KSHITIJ"
@@ -56,7 +58,7 @@ We participated in the Gamefest at IIT Kharagpur Kshitij 2024, competing with pl
       </div>
 
       <div className="block lg:hidden md:p-10  text-justify">
-        <div className=" ">
+        <div className="  m-4 achieve-shadow rounded-md py-3">
           <AchievementCard
             title="Winner, KAIROS"
             data1="KIIT FEST 7.O"
@@ -67,7 +69,7 @@ We participated in the Gamefest at IIT Kharagpur Kshitij 2024, competing with pl
                <AchieveSlider3/>
 
         </div>
-        <div className=" ">
+        <div className=" m-4 achieve-shadow rounded-md py-3 ">
           <AchievementCard
             title="Runner’s Up,Tech Tank"
             data1="Synchronize 2.0 "
@@ -78,7 +80,7 @@ We participated in the Gamefest at IIT Kharagpur Kshitij 2024, competing with pl
                  <AchieveSlider2/>
 
         </div>
-        <div className="">
+        <div className=" m-4 achieve-shadow rounded-md py-3">
           <AchievementCard
             title="2nd Runner's Up, GamesFest"
             data1="KSHITIJ"
@@ -93,6 +95,8 @@ We participated in the Gamefest at IIT Kharagpur Kshitij 2024, competing with pl
       </div>
 
       <Footer />
+      <HelplineButton/>
+
     </div>
   );
 }
