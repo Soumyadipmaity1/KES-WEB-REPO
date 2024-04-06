@@ -7,5 +7,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  optimization: {
+    minimize: true,
+  },
+  module: {
+    rules: [
+      // CSS and JavaScript loaders...
+    ],
+  },
 }
-

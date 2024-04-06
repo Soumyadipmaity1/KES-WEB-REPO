@@ -11,7 +11,9 @@ import StudentTestimonials from "../../components/testamonial/testamonial";
 import MobileTestimonialSlider from "../../components/testimonialMobile/MobileTestimonial";
 import Entry from "../../components/EntryForMobile/Entry";
 export default function Home(){
+ 
     return(
+
 <div className='bg-black'>
 <NavbarHome/>
 <ImageSlider/>
