@@ -1,14 +1,11 @@
 import BigLogo from "../../components/biglogo/biglogo";
 import Gallery from "../../components/gallery/gallery";
 import NavbarAboutus from '../../components/navbar2/navbarAboutus';
-
 import HelplineButton from "../../components/HelplineButton/Helpline";
 import TeamSwitcher from "../../components/TeamSwitcher/TeamSwitcher";
 import TeamCatagory from "../../components/catagories/Catagories";
 import Footer from "../../components/footer/footer";
 import CreditSection from "../../components/Credits/credit";
-
-
 import { useState, useEffect } from "react";
 import BounceLoader from "react-spinners/BounceLoader";
 
