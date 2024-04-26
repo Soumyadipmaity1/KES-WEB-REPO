@@ -8,6 +8,7 @@ import TeamCatagory from "../../components/catagories/Catagories";
 import Footer from "../../components/footer/footer";
 import CreditSection from "../../components/Credits/credit";
 
+
 import { useState, useEffect } from "react";
 import BounceLoader from "react-spinners/BounceLoader";
 
