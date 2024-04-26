@@ -7,9 +7,36 @@ import TeamSwitcher from "../../components/TeamSwitcher/TeamSwitcher";
 import TeamCatagory from "../../components/catagories/Catagories";
 import Footer from "../../components/footer/footer";
 import CreditSection from "../../components/Credits/credit";
- export default function AboutUs(){
 
+import { useState, useEffect } from "react";
+import BounceLoader from "react-spinners/BounceLoader";
+
+ export default function AboutUs(){
+    const [loading , setLoading] = useState(false)
+    useEffect (()=> {
+        setLoading(true)
+        setTimeout(()=> {
+            setLoading(false)
+        }, 5000)
+    }, [])
     return(
+                 
+<div className='bg-black'>
+{
+    loading?
+   
+   <div className=" w-[100%] h-screen flex justify-center items-center "> <BounceLoader
+
+        color={'#3b82f6'}
+        loading={loading}
+        // cssOverride={override}
+        size={100}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+</div>
+  :
+   
         <div class='bg-[#031233]   '>
 
 <NavbarAboutus/>   
@@ -50,7 +77,8 @@ import CreditSection from "../../components/Credits/credit";
  <HelplineButton/>
 
 </div>
-
+}
+</div>
     );
 
 } 

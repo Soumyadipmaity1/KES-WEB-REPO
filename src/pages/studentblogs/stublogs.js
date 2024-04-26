@@ -4,9 +4,35 @@ import Footer from "../../components/footer/footer";
 import Suravi from "./blog3.jpg";
 import rewant from "./blog4.jpg";
 import HelplineButton from "../../components/HelplineButton/Helpline";
+
+import { useState, useEffect } from "react";
+import BounceLoader from "react-spinners/BounceLoader";
 import bgstudentblogs from "./stublog7.png";
 export default function StuBlogs() {
+  const [loading , setLoading] = useState(false)
+useEffect (()=> {
+    setLoading(true)
+    setTimeout(()=> {
+        setLoading(false)
+    }, 5000)
+}, [])
   return (
+          
+<div className='bg-black'>
+{
+    loading?
+   
+   <div className=" w-[100%] h-screen flex justify-center items-center "> <BounceLoader
+
+        color={'#f57319'}
+        loading={loading}
+        // cssOverride={override}
+        size={100}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+</div>
+  :
     <div className="bg-black">
       <NavbarStuBlogs />
       <img className="hidden md:block " src={bgstudentblogs} alt="" />
@@ -40,5 +66,8 @@ export default function StuBlogs() {
       <HelplineButton/>
 
     </div>
+}
+</div>
+
   );
 }

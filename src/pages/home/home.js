@@ -10,16 +10,37 @@ import GuidingPillars from "../../components/piller/piller";
 import StudentTestimonials from "../../components/testamonial/testamonial";
 import MobileTestimonialSlider from "../../components/testimonialMobile/MobileTestimonial";
 import Entry from "../../components/EntryForMobile/Entry";
-// import Aos from "aos";
-import 'aos/dist/aos.css'
-// import { useEffect } from "react";
+// import Bulb from './bulb.json'
+// import Lottie from 'lottie-react'
+import { useState, useEffect } from "react";
+import BounceLoader from "react-spinners/BounceLoader";
 
 export default function Home(){
- 
-
+ const [loading , setLoading] = useState(false)
+useEffect (()=> {
+    setLoading(true)
+    setTimeout(()=> {
+        setLoading(false)
+    }, 5000)
+}, [])
     return(
 
 <div className='bg-black'>
+{
+    loading?
+   
+   <div className=" w-[100%] h-screen flex justify-center items-center "> <BounceLoader
+
+        color={'#24c35e'}
+        loading={loading}
+        // cssOverride={override}
+        size={100}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+</div>
+  :
+  <div>
 <NavbarHome/>
 <ImageSlider/>
 <Entry/>
@@ -34,8 +55,12 @@ export default function Home(){
 <div className="lg:hidden block   ">
     <MobileTestimonialSlider/>
 </div>
+
 <Footer/>
 <HelplineButton/>
 </div>
+}
+</div>
+
     );
 }

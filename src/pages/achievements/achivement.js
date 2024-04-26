@@ -10,9 +10,38 @@ import AchieveSlider1 from "../../components/AchieveSlider/AchieveSlider";
 import AchieveSlider2 from "../../components/AchieveSlider/AchievesSlider2";
 import AchieveSlider3 from "../../components/AchieveSlider/AchieveSlider3";
 import SummaryCards from "../../components/AchieveSummary/SummaryCards";
+import { useState, useEffect } from "react";
+import BounceLoader from "react-spinners/BounceLoader";
+
 export default function Achievement() {
+
+  const [loading , setLoading] = useState(false)
+  useEffect (()=> {
+      setLoading(true)
+      setTimeout(()=> {
+          setLoading(false)
+      }, 5000)
+  }, [])
+
   return (
     <div className="bg-[#000308] ">
+   
+{
+  loading?
+ 
+ <div className=" w-[100%] h-screen flex justify-center items-center ">
+  <BounceLoader
+
+      color={'#2c97c8'}
+      loading={loading}
+      // cssOverride={override}
+      size={100}
+      aria-label="Loading Spinner"
+      data-testid="loader"
+    />
+</div>
+:
+<div>
       <NavbarAchievement/>
       <Achievestart />
       {/* // </div> */}
@@ -98,5 +127,7 @@ We participated in the Gamefest at IIT Kharagpur Kshitij 2024, competing with pl
       <HelplineButton/>
 
     </div>
+}
+</div>
   );
 }
