@@ -3,7 +3,7 @@ import NavbarAchievement from "../../components/navbar2/navbarAchievement";
 import AchieveSummary from "../../components/AchieveSummary/AchiveSummary";
 import AchievementCard from "../../components/AchieveCarda/AchieveCards";
 import AchieveFlow from "../../components/achieveflow/achieveflow";
-import AchieveImage from "../../components/AchieveCarda/AchieveImage";
+// import AchieveImage from "../../components/AchieveCarda/AchieveImage";
 import HelplineButton from "../../components/HelplineButton/Helpline";
 import Footer from "../../components/footer/footer";
 import AchieveSlider1 from "../../components/AchieveSlider/AchieveSlider";
