@@ -12,7 +12,7 @@ import AchieveSlider3 from "../../components/AchieveSlider/AchieveSlider3";
 import SummaryCards from "../../components/AchieveSummary/SummaryCards";
 import { useState, useEffect } from "react";
 import BounceLoader from "react-spinners/BounceLoader";
-
+import SpeedDials from "../../components/SpeedDial/SpeedDial";
 export default function Achievement() {
 
   const [loading , setLoading] = useState(false)
@@ -124,7 +124,7 @@ We participated in the Gamefest at IIT Kharagpur Kshitij 2024, competing with pl
       </div>
 
       <Footer />
-      <HelplineButton/>
+      <SpeedDials/>
 
     </div>
 }

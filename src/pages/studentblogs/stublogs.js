@@ -4,6 +4,7 @@ import Footer from "../../components/footer/footer";
 import Suravi from "./blog3.jpg";
 import rewant from "./blog4.jpg";
 import HelplineButton from "../../components/HelplineButton/Helpline";
+import SpeedDials from "../../components/SpeedDial/SpeedDial";
 
 import { useState, useEffect } from "react";
 import BounceLoader from "react-spinners/BounceLoader";
@@ -63,7 +64,7 @@ useEffect (()=> {
         imagePath={rewant}
       />
       <Footer />
-      <HelplineButton/>
+      <SpeedDials/>
 
     </div>
 }

@@ -1,10 +1,10 @@
-import HelplineButton from "../../components/HelplineButton/Helpline";
+// import HelplineButton from "../../components/HelplineButton/Helpline";
 // import indbgpro from "./indprojectbg.jpg"
 import NavbarProject from "../../components/navbar2/navbarProject";
 import ProjectStart from "../../components/projectstart/projectstart";
 import TabSwitchingComponent from "../../components/TabSwitching/TabSwitching";
 import Footer from "../../components/footer/footer";
-
+import SpeedDials from "../../components/SpeedDial/SpeedDial";
 
 import { useState, useEffect } from "react";
 import BounceLoader from "react-spinners/BounceLoader";
@@ -43,8 +43,7 @@ import BounceLoader from "react-spinners/BounceLoader";
                
 <TabSwitchingComponent/>
 <Footer/>
-<HelplineButton/>
-
+<SpeedDials/>
        </div>
     }
 </div>

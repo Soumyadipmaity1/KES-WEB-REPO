@@ -10,6 +10,7 @@ import GuidingPillars from "../../components/piller/piller";
 import StudentTestimonials from "../../components/testamonial/testamonial";
 import MobileTestimonialSlider from "../../components/testimonialMobile/MobileTestimonial";
 import Entry from "../../components/EntryForMobile/Entry";
+import SpeedDials from "../../components/SpeedDial/SpeedDial";
 // import Bulb from './bulb.json'
 // import Lottie from 'lottie-react'
 import { useState, useEffect } from "react";
@@ -57,7 +58,9 @@ useEffect (()=> {
 </div>
 
 <Footer/>
-<HelplineButton/>
+{/* <HelplineButton/> */}
+<SpeedDials/>
+
 </div>
 }
 </div>
