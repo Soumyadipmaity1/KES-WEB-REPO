@@ -54,7 +54,6 @@ export default function SpeedDials() {
           className="speeddial-bottom-left   left-0 bottom-0"
           buttonClassName="font-bold text-white hover:border-white md:border-4 border-2 m-2  md:px-[25px] md:p-5 px-[17px] p-3 rounded-full    bg-gradient-to-r from-pink-500 to-purple-500 hover:from-purple-600 hover:to-pink-600  transition-colors duration-300"
         />
-      {/* </div> */}
     </div>
   );
 }
