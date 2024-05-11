@@ -98,7 +98,7 @@ const Footer = () => {
 
     <footer className="block bg-[#020319] lg:hidden p-8 pt-10">
 <div className=" text-center  ">
-  <img className="mx-auto" src={keslogo}  alt=""   />
+  <img className="mx-auto rounded-full" src={keslogo}  alt=""   />
   <h1 className=" font-bold text-yellow-400 p-5 text-xl">"Build Small, Think Big"</h1>
 </div>
 
