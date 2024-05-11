@@ -7,7 +7,7 @@ import G5 from './Akash_bhaiya.jpg'
 
 const GuidingPillars = () => {
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-neutral-900 md:py-0 py-6">
       <div className="h-auto w-full flex flex-wrap items-center text-center p-5  md:pt-16">
         <div className="w-full h-auto flex flex-wrap flex-col items-center">
           <div className="flex">

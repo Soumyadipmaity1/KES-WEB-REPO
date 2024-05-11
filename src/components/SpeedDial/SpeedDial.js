@@ -47,7 +47,7 @@ export default function SpeedDials() {
   ];
 
   return (
-    <div class="fixed z-50 font-extrabold   md:bottom-20 bottom-16 md:right-32 right-24">
+    <div class="fixed z-50 font-extrabold   md:bottom-20 bottom-14 md:right-32 right-20">
           <SpeedDial  
           model={items}
           direction="up"

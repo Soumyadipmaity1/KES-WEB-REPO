@@ -176,7 +176,7 @@ box-shadow: 0 0 80px 20px rgb(127, 52, 239);
  .bg-statistics {
    backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(198, 232, 202, 0.75);
+  background-color: rgba(255, 255, 255, 0.911);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   box-shadow:0 0 7px 0 white;
