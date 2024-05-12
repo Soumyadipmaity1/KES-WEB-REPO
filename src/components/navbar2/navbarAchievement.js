@@ -17,7 +17,7 @@ function NavbarAchievement() {
     }, [location.pathname]);
 
     return (
-        <nav className="mx-auto rounded-none bg-transparent sticky box-shadow1 z-50 md:top-5 md:mb-8 lg:w-[78%] xl:w-[65%] sm:w-[85%]  h-16 md:items-center text-center md:justify-between md:rounded-full sm:text-sm   md:font-bold">
+        <nav className="mx-auto rounded-none bg-transparent sticky box-shadow1 z-50 md:top-5 md:mb-8 lg:w-[78%] 2lg:w-[72%] xl:w-[65%] sm:w-[85%]  h-16 md:items-center text-center md:justify-between md:rounded-full sm:text-sm   md:font-bold">
             <div className="md:flex justify-between md:pt-1">
                 <div className="flex justify-between md:w-full md:justify-between md:px-16 px-8">
                     <div className="flex w-full md:justify-between">
@@ -28,12 +28,12 @@ function NavbarAchievement() {
                                 <li><img className="lg:h-12 h-12   mx-[8px] text-shadow1 box-shadow md:mt-[5px] mt-2 " src={keslogo} alt="KES LOGO" /></li>
                             </ul>
                         </div>
-                        <div className="hidden  md:text-[10px]   xl:text-[14px] md:flex md:text-center">
-                            <Link to="/" className="xl:mx-[12px] lg:mx-[8px]  cursor-pointer mt-4  text-shadow  text-white box-shadow2 px-2  hover:text-sky-500 start  ">HOME</Link>
-                            <Link to="/Aboutus" className="xl:mx-[12px] lg:mx-[8px] cursor-pointer px-2  text-shadow   mt-4 box-shadow2  hover:text-sky-500 text-white start transition duration-500">ABOUT US</Link>
-                            <Link to="/studentblogs" className="xl:mx-[12px] lg:mx-[8px] cursor-pointer px-2 mt-4 text-shadow box-shadow2 text-white hover:text-sky-500 start transition duration-500  ">STUDENT BLOGS</Link>
-                            <Link to="/projects" className="xl:mx-[12px] lg:mx-[8px]  cursor-pointer text-shadow px-2 mt-4  box-shadow2 text-white hover:text-sky-500 start transition duration-500">PROJECTS</Link>
-                            <Link to="/achievement" className="xl:ml-[10px] lg:mx-[8px] mt-4  cursor-pointer box-shadow3 px-2 text-sky-500 text-shadow1 start transition duration-500">ACHIEVEMENTS</Link>
+                        <div className="hidden  md:text-[10px]  2lg:text-[12.5px]     xl:text-[14px] md:flex md:text-center">
+                            <Link to="/" className="xl:mx-[12px]  2lg:mx-[10px] lg:mx-[8px]  cursor-pointer mt-4  text-shadow  text-white box-shadow2 px-2  hover:text-sky-500 start  ">HOME</Link>
+                            <Link to="/Aboutus" className="xl:mx-[12px] 2lg:mx-[10px]  lg:mx-[8px] cursor-pointer px-2  text-shadow   mt-4 box-shadow2  hover:text-sky-500 text-white start transition duration-500">ABOUT US</Link>
+                            <Link to="/studentblogs" className="xl:mx-[12px] 2lg:mx-[10px]  lg:mx-[8px] cursor-pointer px-2 mt-4 text-shadow box-shadow2 text-white hover:text-sky-500 start transition duration-500  ">STUDENT BLOGS</Link>
+                            <Link to="/projects" className="xl:mx-[12px] 2lg:mx-[10px]  lg:mx-[8px]  cursor-pointer text-shadow px-2 mt-4  box-shadow2 text-white hover:text-sky-500 start transition duration-500">PROJECTS</Link>
+                            <Link to="/achievement" className="xl:ml-[10px]  2lg:mx-[10px] lg:mx-[8px] mt-4  cursor-pointer box-shadow3 px-2 text-sky-500 text-shadow1 start transition duration-500">ACHIEVEMENTS</Link>
                         </div>
                     </div>
                     <div className="md:hidden flex items-center pt-2 pr-3">

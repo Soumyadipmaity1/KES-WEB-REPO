@@ -248,7 +248,7 @@ const Project = ({ project }) => (
 );
 
 const Groupproject = () => (
-  <div class="flex-col grouppro-bg  xl:px-24 lg:px-10 px-5  py-6">
+  <div class="flex-col grouppro-bg  xl:px-24 2lg:px-16 lg:px-10 px-5  py-6">
     {projects.map((project) => (
       <Project key={project.id} project={project} />
     ))}

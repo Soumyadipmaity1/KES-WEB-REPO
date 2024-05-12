@@ -20,8 +20,8 @@ import aritra from "./aritra_pro.png";
 // import priangshu from "./";
 export default function IndProjects() {
   return (
-    <div class="w-full h-full project-bg ">
-      <div class=" h-auto  flex p-7   justify-evenly flex-wrap ">
+    <div class="w-full h-full project-bg py-10 ">
+      <div class=" h-auto  flex xl:p-7 2lg:p-1   justify-center flex-wrap ">
         <IndProjectcard
           img={rahul}
           title="Password Security System"

@@ -3,17 +3,17 @@ import React from 'react';
 
 function IndProjectcard ({ img, title, name, id, github, linkedin, instagram, Document }) {
   return (
-    <div className="w-84 probox-shadow m-5">
-      <div><img className="h-52 w-96 rounded-t-2xl" src={img} alt="" /></div>
+    <div className="xl:w-84 w-84  2lg:w-84 probox-shadow 2lg:m-3 m-5 xl:m-5">
+      <div><img className="xl:h-52 h-52 2lg:h-52 xl:w-96 w-96 2lg:w-84 rounded-t-2xl" src={img} alt="" /></div>
       <div className="overflow-hidden block px-6 indpro-bg pt-4 pb-2 relative text-black rounded-b-2xl project-link hover:text-white ">
-      <div className='item-bg'></div>
+      {/* <div className='item-bg'></div> */}
         <div className="item-title">{title}</div>
         <div className="text-slate-100 rounded-b-2xl relative z-20">
           <div className="flex">
             <div className="w-16 rounded-full"><img className="rounded-full" src={pro_dp} alt="" /></div>
             <div className="ml-4">
-              <p className="px-1 pb-1 text-lg font-semibold">{name}</p>
-              <p className="p-0.5 pb-1">{id}</p>
+              <p className="px-1 pb-1 xl:text-lg text-lg 2lg:text-[16px] font-semibold">{name}</p>
+              <p className="p-0.5 pb-1 2lg:text-sm text-base">{id}</p>
               <div className="flex">
                 <div className="text-white cursor-pointer">
                   <a href={github} target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github mx-3 px-1 rounded-full text-xl hover:text-white hover:bg-black"></i></a>
