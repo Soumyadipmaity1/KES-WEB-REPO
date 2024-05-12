@@ -418,13 +418,23 @@ height: 105vh;
 
 
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .achievesummary{
   
     background-image: url(./components/AchieveSummary/Achievement.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 520px;
+  }
+  }
+  
+@media (min-width: 1280px) {
+  .achievesummary{
+  
+    background-image: url(./components/AchieveSummary/Achievement.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
   }
   }
 

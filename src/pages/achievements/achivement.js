@@ -1,4 +1,4 @@
-import Achievestart from "../../components/achievementstart/achievestart";
+import AchieveStart from "../../components/achievementstart/achievestart";
 import NavbarAchievement from "../../components/navbar2/navbarAchievement";
 import AchieveSummary from "../../components/AchieveSummary/AchiveSummary";
 import AchievementCard from "../../components/AchieveCarda/AchieveCards";
@@ -43,7 +43,7 @@ export default function Achievement() {
 :
 <div>
       <NavbarAchievement/>
-      <Achievestart />
+      <AchieveStart />
       {/* // </div> */}
       <AchieveSummary />
 <div className="lg:hidden">
