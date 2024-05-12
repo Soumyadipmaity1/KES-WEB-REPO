@@ -168,7 +168,7 @@ const Project = ({ project }) => (
     <div className="container ">
       <div className="lg:flex py-5 xl:px-5 xl:py-10 lg:py-8 lg:px-5 ">
         
-        <div className="xl:w-1/3 lg:w-84 lg:mr-8  w-[80%] md:w-96  xl:mx-10 mx-auto lg:my-auto lg:mx-5  xl:mr-20   ">
+        <div className="xl:w-1/3 lg:w-84 lg:mr-8  w-[80%] md:w-96  xl:mx-10 mx-auto lg:my-auto lg:mx-5  xl:mr-20 2lg:mx-10  ">
           <div className="flex flex-col h-auto w-full mb-3 mt-3 border-2 border-[#632aa4] rounded-2xl">
             <img
               alt="..."
@@ -176,7 +176,7 @@ const Project = ({ project }) => (
               className="w-full h-56 align-middle rounded-t-xl"
             />
             <div className="lg:p-6 p-5 rounded-b-lg pb-8 bg-[#632aa4]">
-              <h4 className="text-xl font-bold text-white">{project.name}</h4>
+              <h4 className="lg:text-xl text-lg font-bold text-white">{project.name}</h4>
               <ul className="font-light mt-2 text-white flex-col">
                 {project.teamMembers.map((member, index) => (
                   <li key={index}>
@@ -191,8 +191,8 @@ const Project = ({ project }) => (
         <div className="xl:w-2/3   ">
           <div className="md:flex justify-center md:p-3 p-5 lg:p-0">
 
-            <div className="lg:w-1/2  lg:mr-1  md:w-[300px] md:mx-5   xl:mx-0  ">
-              <div className="flex flex-col lg:w-60 lg:h-[300px] xl:h-auto  xl:w-72  mt-2 bg-[#dabaffb4] mb-4 p-1 rounded-3xl shadow-sm">
+            <div className="lg:w-1/2  lg:mr-1  md:w-[300px] md:mx-5 2lg:w-[350px]  xl:mx-0  ">
+              <div className="flex flex-col lg:w-60 lg:h-[300px] 2lg:w-[280px]  2lg:[300px] xl:h-auto  xl:w-72  mt-2 bg-[#dabaffb4] mb-4 p-1 rounded-3xl shadow-sm">
                 <div className="px-4 py-3 flex-auto ">
                   <div className="text-blueGray-500 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full  bg-black text-white">
                     <i className="fas fa-sitemap"></i>
@@ -201,7 +201,7 @@ const Project = ({ project }) => (
                   <p className="mb-4 text-blueGray-500 text-justify text-sm">{project.about.description}</p>
                 </div>
               </div>
-              <div className="xl:w-72 flex lg:w-60 lg:h-56 xl:h-auto flex-col xl:mt-2 bg-[#dabaffb4] xl:p-1  rounded-3xl shadow-sm">
+              <div className="xl:w-72 flex lg:w-60 2lg:w-[280px]  2lg:[300px]  lg:h-56 xl:h-auto flex-col xl:mt-2 bg-[#dabaffb4] xl:p-1  rounded-3xl shadow-sm">
                 <div className="px-4 py-3 flex-auto">
                   <div className="text-blueGray-500 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full bg-black text-white">
                     <i className="fas fa-drafting-compass"></i>
@@ -217,7 +217,7 @@ const Project = ({ project }) => (
             </div>
 
             <div className="lg:w-1/2 lg:mx-1  md:w-[300px] md:mx-5  xl:mx-0    ">
-              <div className="xl:w-72 flex lg:w-60 md:h-[260px]  lg:h-[300px] xl:h-auto  flex-col mt-2 mb-4 bg-[#dabaffb4] p-1 rounded-3xl  shadow-sm">
+              <div className="xl:w-72 flex lg:w-60 md:h-[260px] 2lg:w-[280px]  2lg:[300px]    lg:h-[300px] xl:h-auto  flex-col mt-2 mb-4 bg-[#dabaffb4] p-1 rounded-3xl  shadow-sm">
                 <div className="px-4 py-3 flex-auto ">
                   <div className="text-blueGray-500 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full  bg-black text-white">
                     <i className="fas fa-newspaper"></i>
@@ -226,7 +226,7 @@ const Project = ({ project }) => (
                   <p className="mb-4 text-sm text-justify text-blueGray-500">{project.aim.description}</p>
                 </div>
               </div>
-              <div className="xl:w-72 lg:h-56 xl:h-52  md:h-[202px]  flex lg:w-60 flex-col mt-2 bg-[#dabaffb4] p-1 rounded-3xl shadow-sm">
+              <div className="xl:w-72 lg:h-56 xl:h-52 2lg:w-[280px]  2lg:[300px]   md:h-[202px]  flex lg:w-60 flex-col mt-2 bg-[#dabaffb4] p-1 rounded-3xl shadow-sm">
                 <a target="_blank" rel="noopener noreferrer" href={project.documentationUrl}>
                   <div className="px-4 py-3 flex-auto">
                     <div className="text-blueGray-500 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full bg-black text-white">
