@@ -2,8 +2,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import image1 from './GameFest.png'
-import image2 from './GameFest2.png'
+const image1 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715833937/GameFest_kysc11.jpg'
+const image2 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715833722/GameFest2_asrylc.png'
 const AchieveSlider1 = () => {
   const settings = {
     dots: true,
