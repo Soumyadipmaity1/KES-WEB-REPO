@@ -1,22 +1,24 @@
-import rahul from "./rahul_project_pic.jpg";
-import abhinav from "./Abhinav_pro.jpg";
-import arnuv from "./arnuv_pro.png";
-import bittu from "./bittu_pro.jpg";
-import rishav from "./bittu_pro.jpg";
-import IndProjectcard from "./projectcard";
-import junaid from "./junaid_pro.jpg";
-import aman from "./Aman_pro.jpg";
-import prathmesh from "./prathmesh_pro.jpg";
-import vidit from "./vidit_pro.jpg";
-import soumya from "./soumya_pro.webp";
-import swarup from "./Swarup_pro.jpg";
-import abhishekmohanty from "./abhishekmohanty_pro.jpg";
-import bishayan from "./biswayan_pro.jpg";
-import anirban from "./anirbarn.jpeg";
-import viswanath from "./Viswanath_PRO.jpg";
-import archish from "./archish_pro.jpg";
-import anup from "./anup_pro.jpg";
-import aritra from "./aritra_pro.png";
+ import IndProjectcard from "./projectcard";
+ 
+ const  rahul = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837528/rahul_project_pic_ukyqnf.jpg";
+ const  abhinav = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837469/Abhinav_pro_zf4krq.jpg";
+ const  arnuv = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837496/arnuv_pro_mc6xku.png";
+ const  bittu = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837503/bittu_pro_hujlxf.jpg";
+ const  rishav = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837503/bittu_pro_hujlxf.jpg";
+
+ const  junaid = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837514/junaid_pro_h9xkeg.jpg";
+ const  aman = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837475/Aman_pro_ep5xmv.jpg";
+ const  prathmesh = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837517/prathmesh_pro_mjudo7.jpg";
+ const vidit = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837537/vidit_pro_ofdwix.jpg";
+ const  soumya = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837531/soumya_pro_hvswzv.webp";
+ const  swarup = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837534/Swarup_pro_xwjutz.jpg";
+ const  abhishekmohanty = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837472/abhishekmohanty_pro_dde4nt.jpg";
+ const  bishayan = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837497/biswayan_pro_m0whtf.jpg";
+ const  anirban = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837478/anirbarn_gaxa8t.jpg";
+ const  viswanath = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837541/Viswanath_PRO_gjekns.jpg";
+ const  archish = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837490/archish_pro_cy26le.jpg";
+ const  anup = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837487/anup_pro_yas6hp.jpg";
+ const  aritra = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837493/aritra_pro_pdpmyy.jpg";
 // import priangshu from "./";
 export default function IndProjects() {
   return (

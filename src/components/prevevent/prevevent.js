@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Event1 from './eventpic1.jpg';
-import Event2 from './eventpic2.jpg';
+const Event1 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837399/eventpic1_oesnw2.jpg';
+const Event2 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837402/eventpic2_eonljc.jpg';
 
 const Prevevent = () => {
   return (

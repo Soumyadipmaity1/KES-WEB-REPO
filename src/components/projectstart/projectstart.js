@@ -1,4 +1,4 @@
-import ProjectStartbg from './PROJECTBG4.png'
+const ProjectStartbg = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837548/PROJECTBG4_webyh5.png'
 
 
 const ProjectStart = () => {

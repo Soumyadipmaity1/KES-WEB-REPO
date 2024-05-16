@@ -1,7 +1,8 @@
-import Members from "./membericon.svg";
-import Events from "./eventicon.svg";
-import Projects from "./projecticon.svg";
 import StatisticCard from "./statisticCards";
+
+const Members = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837562/membericon_fcmqfl.svg";
+const Events = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837560/eventicon_lz3nef.svg";
+const Projects = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837560/projecticon_sxmldg.svg";
 
 export default function Statistic() {
   return (

@@ -1,10 +1,12 @@
-import Stu1 from './anirbanbhaiya.jpg'
-import Stu2 from './bishawayanbhaiya.jpg'
-import Quote1 from './quote.png'
-import Quote2 from './quote.svg'
 
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
+
+
+const Stu1 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837707/anirbanbhaiya_zw2dew.jpg'
+const Stu2 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837709/bishawayanbhaiya_t1erlb.jpg'
+const Quote1 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837713/quote_z2z0ku.png'
+const Quote2 ='https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837718/quote_gpgzh2.svg'
 
 
 function StudentTestimonials() {

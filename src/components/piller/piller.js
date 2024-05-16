@@ -1,9 +1,9 @@
 
-import G1 from './ProfShyam_Behura.jpg'
+const G1 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837381/ProfShyam_Behura_dlrog8.jpg'
 
-import G3 from './ProfShubhasri_Kundu.png' 
-import G4 from './Abhisekhkushari_bhaiya.jpg'
-import G5 from './Akash_bhaiya.jpg'
+const G3 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837379/ProfShubhasri_Kundu_qnl9r8.png' 
+const G4 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837373/Abhisekhkushari_bhaiya_bq1sb6.jpg'
+const G5 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837376/Akash_bhaiya_ussoen.jpg'
 
 const GuidingPillars = () => {
   return (

@@ -2,8 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import anirban from './anirbanbhaiya.jpg'
-import bishayan from './bishawayanbhaiya.jpg'
+const  anirban = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837707/anirbanbhaiya_zw2dew.jpg'
+const bishayan = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837709/bishawayanbhaiya_t1erlb.jpg'
 const MobileTestimonialSlider = () => {
   const settings = {
     dots: true,
