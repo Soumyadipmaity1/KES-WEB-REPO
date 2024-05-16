@@ -6,11 +6,11 @@
 .noticebg{
 
 
-    background-image: url(./components/noticeboard/noticebg.png);
+    background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837339/noticebg_y9br6h.png);
 }
 .biglogobg{
 
-    background-image: url(./components/biglogo/bgimg_aboutus.avif);
+    background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834703/bgimg_aboutus_y6xrf1.avif);
 background-size: cover;
 /* height: 720px; */
 height: auto;
@@ -30,7 +30,7 @@ height: auto;
 
    .achievementbg1{
 
-    background-image: url(./components/achievementstart/achievementbg2.png);
+    background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834554/Achievement_dhhbyd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 0 0 0 5px #000308;
@@ -113,7 +113,7 @@ box-shadow: 0 0 80px 20px rgb(127, 52, 239);
 
 .indpro-bg{
   backdrop-filter: blur(10px) ;
-  background-image: url(./components/projectcard/indprojectbg.jpg);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837509/indprojectbg_n3mjrh.jpg);
  }
 .probox-shadow:hover{
   box-shadow:0 0 13px 0 white;
@@ -197,7 +197,7 @@ box-shadow: 0 0 80px 20px rgb(127, 52, 239);
  
   
 .bg-tech{
-  background-image: url(./components/TechMembers/member-bg.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837570/TeamSwitcher_background_orjru6.png);
 background-repeat: repeat;
 background-size: contain;
 }
@@ -211,7 +211,7 @@ background-size: contain;
 
 .grouppro-bg{
 
-  background-image: url(./components/projectcard/probackp1.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837526/probackp1_wxs6m3.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -228,7 +228,7 @@ overflow-y: scroll;
 }
 
 .project-bg{
-  background-image: url(./components/projectcard/probackp1.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837526/probackp1_wxs6m3.png);
 background-size: cover;
 background-repeat: no-repeat;  
 background-attachment: fixed;
@@ -236,7 +236,7 @@ background-attachment: fixed;
 
 .bg-testimonial{
 background-size: cover;
-  background-image: url(./components/testimonialMobile/dynamic-wang-_F7Z0hnFpRI-unsplash.jpg);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837722/dynamic-wang-_F7Z0hnFpRI-unsplash_qm58qe.jpg);
 }
 
 .bg-test-card {
@@ -250,7 +250,7 @@ background-color: #000308a2;
 } */
 
 .bg-blog-small{
-  background-image: url(./components/blogs/blog_bg.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834727/blog_bg_pqlgpl.png);
   background-size: cover;
 background-repeat: no-repeat;  
 background-attachment: fixed;
@@ -264,7 +264,7 @@ background-color: #0000001f;
 }
 
 .journey-bg{
-  background-image: url(./components/journey/journey_bg.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835008/journey_bg_bgzc7y.png);
   background-size: cover;
   background-repeat: no-repeat;  
   background-attachment: fixed;
@@ -318,7 +318,7 @@ height: 700px;
 background-size: cover;
 }
 .aboutus-entry{
-  background-image: url(./pages/aboutus/aboutus_entry.png);
+  background-image: url(./pages/aboutus/aboutUsbg2.svg);
   background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
@@ -347,7 +347,7 @@ box-shadow: 0 0 9px 0 white;
 }
 .blog-start-bg{
 
-  background-image: url(./pages/studentblogs/blog_formobile.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715843137/blog_formobile_xksaqs.png);
   background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
@@ -369,7 +369,7 @@ height: 100vh;
 
 @media (max-width: 760px) {
 .project-bg-mobile{
-  background-image: url(./components/projectstart/project-bgMobile.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837556/project-bgMobile_r1qkzd.png);
   background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
@@ -401,7 +401,7 @@ height: 105vh;
 @media (min-width: 760px){
 .teamswitcher_bg{
 
-  background-image: url(./components/TeamSwitcher/TeamSwitcher_background.png);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837570/TeamSwitcher_background_orjru6.png);
   background-size: cover;
   background-repeat: no-repeat;  
   background-attachment: fixed;
@@ -430,7 +430,7 @@ height: 105vh;
 @media (min-width: 1280px) {
   .achievesummary{
   
-    background-image: url(./components/AchieveSummary/Achievement.png);
+    background-image: url('https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834554/Achievement_dhhbyd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -441,7 +441,7 @@ height: 105vh;
 @media (max-width: 1024px) {
   .achievesummary{
   
-    background-image: url(./components/AchieveSummary/Achievement.png);
+    background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834554/Achievement_dhhbyd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
