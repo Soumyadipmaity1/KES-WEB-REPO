@@ -1,6 +1,6 @@
-import shivansh from './SHIVANSH..png'
-import khusi from './khusi.svg'
-import pranjal from './pranjal.svg'
+const shivansh = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835169/SHIVANSH_xm4mrw.svg'
+const khusi = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837227/khushi_ga8kx3.svg'
+const pranjal = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835226/pranjal_qfbtuq.svg'
 
 export default function AsstCo(){
 

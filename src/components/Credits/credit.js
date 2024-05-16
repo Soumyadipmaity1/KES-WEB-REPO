@@ -1,8 +1,8 @@
 
-import dev from './Dev.png'
-import Shyam from './Shyam.png'
-import aakarsh from './Aakarsh.png'
-import Soumyadip from './Soumyadip.png';
+const dev = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834766/Dev_oye13d.png'
+const Shyam = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834767/Shyam_m2bvdp.png'
+const aakarsh = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834764/Aakarsh_t1bwog.png'
+const Soumyadip = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834767/Soumyadip_s4xvof.png';
 
 const members2 = [
     {

@@ -1,4 +1,4 @@
-import BigLogoKes from "./keslogo_aboutus.jpeg";
+const BigLogoKes = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834704/keslogo_aboutus_wviibi.jpg";
 
 function BigLogo() {
   return (

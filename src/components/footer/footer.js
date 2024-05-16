@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import keslogo from "./keslogo.png"
+const keslogo = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834812/keslogo_msviov.png"
 const Footer = () => {
   return (
     <>

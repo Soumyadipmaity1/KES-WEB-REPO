@@ -2,12 +2,12 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import image1 from './slide_src1a.png'
-import image2 from './slide_src2.png'
-import image3 from './slide_src3a.png'
-import image4 from './slide_src4aa.png'
+import image1 from 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834851/slide_src1a_nlcxx4.png'
+import image2 from 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835242/slide_src2_oafykk.jpg'
+import image3 from 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835243/slide_src3a_mkgyfz.jpg'
+import image4 from 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834864/slide_src4aa_bw9btb.png'
 
-import image5 from './slide_src5aa.png'
+import image5 from 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834858/slide_src5aa_fcdxgo.png'
 
 
 const ImageSlider = () => {

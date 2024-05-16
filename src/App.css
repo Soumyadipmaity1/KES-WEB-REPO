@@ -420,7 +420,7 @@ height: 105vh;
 @media (min-width: 1440px) {
   .achievesummary{
   
-    background-image: url(./components/AchieveSummary/Achievement.png);
+    background-image: url('https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834554/Achievement_dhhbyd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 520px;

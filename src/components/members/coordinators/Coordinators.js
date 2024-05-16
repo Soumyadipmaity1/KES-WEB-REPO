@@ -1,5 +1,5 @@
-import suravi from './suravi.svg'
-import shilpi from './shilpi_didi.png'
+const suravi = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835141/suravi_mahm6r.svg'
+const shilpi = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835189/shilpi_didi_fti132.png'
 const Coordinator = () => {
 
 
