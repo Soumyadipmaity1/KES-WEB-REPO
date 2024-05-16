@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
-import ksac from './KSAC_logo.png';
-import keslogo from "./keslogo.png";
-import kiitlogo from "./kiit_logo.png";
+const ksac = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837286/KSAC_logo_adc2vn.png';
+const keslogo = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837281/keslogo_deweab.png";
+const kiitlogo = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837283/kiit_logo_jtgq9q.png";
 
 function NavbarProject() {
     const [menuVisible, setMenuVisible] = useState(false);

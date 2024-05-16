@@ -1,10 +1,12 @@
-import Soumyadip from './Soumyadip_nontech.png';
-import Pritika from './Pritika_nontech.png'
-import Harsh from './Harsh_nontech.png'
-import Avinab from './avinabh_nontech.png'
-import dummy from './dummy-nontech.png'
-import fdummy from './dummy_nontech_f.png'
 import React, { useState } from 'react';
+
+
+const Soumyadip = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837320/Soumyadip_nontech_ojyvsd.png';
+const Pritika = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837317/Pritika_nontech_oo1vec.png';
+const Harsh = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837316/Harsh_nontech_wdzsio.png';
+const Avinab = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837308/avinabh_nontech_xcco8q.png';
+const dummy = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837313/dummy-nontech_bmmxkb.png';
+const fdummy = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837309/dummy_nontech_f_mssue7.png';
 
 
 const NonTechMembers = () => {
