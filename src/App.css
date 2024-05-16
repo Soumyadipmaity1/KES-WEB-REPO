@@ -318,10 +318,10 @@ height: 700px;
 background-size: cover;
 }
 .aboutus-entry{
-  background-image: url(./pages/aboutus/aboutUsbg2.svg);
+  background-image: url(https://res.cloudinary.com/da3u4ukxz/image/upload/v1715849391/Aboutus_entry_alebmd.png);
   background-size: cover;
 background-repeat: no-repeat;
-height: 100vh;
+height: 920px;
 }
 
 .aboutus-morph{
