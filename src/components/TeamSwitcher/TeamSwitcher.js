@@ -55,7 +55,7 @@ function TeamSwitcher() {
       </button>
     </div>{" "}
   </nav>
-  <nav className="flex-col xl:text-base text-sm justify-center  sm:hidden  py-5 container ">
+  <nav className="flex-col xl:text-base text-[12px] justify-center  sm:hidden  py-5 container ">
     
    <div className="flex justify-center">
    <div className="xl:mr-4 lg:mr-3 mr-2 ">

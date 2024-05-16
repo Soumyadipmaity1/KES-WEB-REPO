@@ -39,7 +39,7 @@ import SpeedDials from "../../components/SpeedDial/SpeedDial";
 
 <NavbarAboutus/>   
 <div className="aboutus-entry md:hidden block">
-    <h1 className="text-5xl text-center aboutus-title-morph p-10 pt-28 font-bold text-white">About Us</h1>
+    <h1 className="text-5xl text-center aboutus-title-morph p-10 mb-20 pt-32 font-bold text-white">About Us</h1>
     <p className="text-slate-300 py-8 aboutus-morph  text-[16px]  md:pt-10 mt-16 md:mt-0 cursor-pointer flex justify-center font-semibold text-center xl:px-40 px-5 mx-10 md:mx-0 sm:px-10 hover:text-white pb-8 rounded-2xl">
         Welcome to the KIIT Electrical Society (KES), your gateway to boundless
         innovation and intellectual curiosity. We're a dynamic community that
@@ -55,7 +55,7 @@ import SpeedDials from "../../components/SpeedDial/SpeedDial";
 <Gallery/>
 <div className="teamswitcher_bg py-20">
 <div className=" text-center font-bold ">
-    <h1 className=" text-4xl mb-5 underline-offset-2 text-white">Meet Our Team</h1>
+    <h1 className=" sm:text-4xl text-3xl mb-5 underline-offset-2 text-white">Meet Our Team</h1>
     <div class="w-36 border-b-4 mx-auto mb-5 border-yellow-400  "> </div>
 
 </div>
