@@ -5,8 +5,20 @@ import ProjectPage from './pages/projects/projectpage';
 import Achievement from './pages/achievements/achivement';
 import StuBlogs from './pages/studentblogs/stublogs';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    const handleContextMenu = (event) => {
+      event.preventDefault();
+    };
+
+    document.addEventListener('contextmenu', handleContextMenu);
+
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, []);
   return (
     <Router>
       <Routes>
@@ -15,7 +27,6 @@ function App() {
         <Route path="/projects" element={<ProjectPage/>} />
         <Route path="/studentblogs" element={<StuBlogs/>} />
         <Route path="/achievement" element={<Achievement/>} />
-
       </Routes>
     </Router>
   );
