@@ -11,7 +11,7 @@ export default function SpeedDials() {
     },
     {
         icon: "fab fa-instagram",
-        className: "md:text-3xl text-2xl md:p-2.5 md:px-3 p-1.5 px-2 border-2 border-white my-1 md:my-1 font-bold text-white bg-pink-600", // Custom class for blue background and large icon size
+        className: "md:text-3xl text-2xl md:p-2.5 md:px-3 p-1.5 px-2 border-2 border-white  my-1 md:my-1 font-bold text-white bg-pink-600", // Custom class for blue background and large icon size
         command: () => {
           window.open("https://instagram.com/kiit_electrical_society?igshid=MzRlODBiNWFlZA==", "_blank");
         },
