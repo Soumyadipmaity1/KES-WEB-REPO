@@ -447,3 +447,12 @@ height: 105vh;
     height: 400px;
   }
   }
+
+
+  html {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #00913f #000000; /* Thumb and track color */
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+  }
+  
