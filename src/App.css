@@ -448,10 +448,13 @@ height: 105vh;
   }
   }
 
-  html {
-    scrollbar-width: thin; /* Thin scrollbar */
-    scrollbar-color: #00913f #000000; /* Thumb and track color */
-    -ms-overflow-style: none;
-    scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
   }
-  
+  ::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+  }
+  ::-webkit-scrollbar-track-piece {
+    background: black;
+  }
