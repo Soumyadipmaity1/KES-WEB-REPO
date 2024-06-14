@@ -1,9 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
+import kiitlogo from './kiit_logo2.png'
 
 const ksac = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837286/KSAC_logo_adc2vn.png';
 const keslogo = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837281/keslogo_deweab.png";
-const kiitlogo = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837283/kiit_logo_jtgq9q.png";
 
 
 function NavbarAboutus() {
@@ -25,7 +25,7 @@ function NavbarAboutus() {
                     <div className="flex w-full md:justify-between">
                         <div>
                             <ul className="flex justify-between">
-                                <li><img className=" md:h-[47px] bg-white  mx-[8px]  sm:h-[40px] text-shadow1  md:mt-[5px]  bg-transparent rounded-full py-[5px]   md:flex hidden " src={kiitlogo} alt="kiit logo" /></li>
+                                <li><img className=" md:h-[47px] bg-white px-[0.7px] pt-[1.4px]  mx-[8px]  sm:h-[40px] text-shadow1  md:mt-[5px]  bg-transparent rounded-full    md:flex hidden " src={kiitlogo} alt="kiit logo" /></li>
                                 <li><img className="lg:h-[46px] h-[47px] rounded-full py-[5px]  bg-white mx-[8px]  lg:py-[5px] text-shadow1  box-shadow  md:mt-[5px] mt-2 " src={ksac} alt="KES LOGO" /></li>
                                 <li><img className="lg:h-12 h-12   mx-[8px] text-shadow1 box-shadow md:mt-[5px] mt-2 " src={keslogo} alt="KES LOGO" /></li>
                             </ul>
