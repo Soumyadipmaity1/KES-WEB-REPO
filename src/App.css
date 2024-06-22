@@ -458,3 +458,24 @@ height: 105vh;
   ::-webkit-scrollbar-track-piece {
     background: black;
   }
+
+  
+::selection {
+  background: var(--sky-crayola);
+  color: var(--smoky-white);
+}
+
+:focus { outline-color: var(--sky-crayola); }
+
+
+body { background: var(--smoky-white); }
+
+:root{
+  
+
+  --smoky-white: hsl(0, 0%, 0%);
+
+  --sky-crayola: #dadada;
+ 
+
+}
