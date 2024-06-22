@@ -52,8 +52,8 @@ function StudentTestimonials() {
       </div>
 
       <div className="flex justify-center items-center">
-        <button className="bg-[#0065ff] items-center text-white hover:bg-white hover:text-[#091e42] font-bold py-2 px-3 rounded-md text-xs shadow-lg">
-          <a href="achieve.html">Read more <i className="fa-solid fa-arrow-right fa-fade"></i></a>
+        <button className="bg-[#0065ff] items-center text-white  hover:bg-white hover:text-[#091e42] font-bold py-2.5 px-5 rounded-md  shadow-lg">
+          <a href="/aboutus">Read more <i className="fa-solid fa-arrow-right fa-fade"></i></a>
         </button>
       </div>
     </div>
