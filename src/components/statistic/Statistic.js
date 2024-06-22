@@ -6,7 +6,7 @@ const Projects = "https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837560/
 
 export default function Statistic() {
   return (
-    <div class=" md:p-10 md:h-80 h-[500px]   my-10 bg-[#15d876] md:flex justify-evenly flex-col md:flex-row  pt-[60px] items-center md:items-center">
+    <div class=" md:p-10 md:h-80 h-[500px]   my-10 bg-[#15d876 bg-[#15d87684] md:flex justify-evenly flex-col md:flex-row  pt-[60px] items-center md:items-center">
 
         <StatisticCard imageSrc={Members} title="Members" subtitle="400+" />
         <StatisticCard imageSrc={Events} title="Events" subtitle="10+" />
