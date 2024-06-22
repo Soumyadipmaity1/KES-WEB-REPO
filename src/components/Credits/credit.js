@@ -18,9 +18,9 @@ const members2 = [
         name: 'Soumyadip Maity',
         id: '22053029',
         imageUrl: Soumyadip,
-        githubLink: 'https://github.com/example',
-        linkedinLink: 'https://linkedin.com/example',
-        instagramLink: 'https://instagram.com/example'
+        githubLink: 'https://github.com/Soumyadipmaity1',
+        linkedinLink: 'https://www.linkedin.com/in/soumyadip-maity-a77b41282/',
+        instagramLink: 'https://instagram.com/smilingsoumya1'
     },
     {
         name: 'Shyam Barua',
