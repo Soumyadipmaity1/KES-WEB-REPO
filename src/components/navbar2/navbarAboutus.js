@@ -23,13 +23,39 @@ function NavbarAboutus() {
             <div className="md:flex justify-between md:pt-1">
                 <div className="flex justify-between md:w-full md:justify-between md:px-16 px-8">
                     <div className="flex w-full md:justify-between">
-                        <div>
-                            <ul className="flex justify-between">
-                                <li><img className=" md:h-[47px] bg-white px-[0.7px] pt-[1.4px]  mx-[8px]  sm:h-[40px] text-shadow1  md:mt-[5px]  bg-transparent rounded-full    md:flex hidden " src={kiitlogo} alt="kiit logo" /></li>
-                                <li><img className="lg:h-[46px] h-[47px] rounded-full py-[5px]  bg-white mx-[8px]  lg:py-[5px] text-shadow1  box-shadow  md:mt-[5px] mt-2 " src={ksac} alt="KES LOGO" /></li>
-                                <li><img className="lg:h-12 h-12   mx-[8px] text-shadow1 box-shadow md:mt-[5px] mt-2 " src={keslogo} alt="KES LOGO" /></li>
-                            </ul>
-                        </div>
+                    <div>
+              <ul className="flex justify-between">
+                <a href="https://www.kiit.ac.in/" target="_blank">
+                  <li>
+                    <img
+                      className=" md:h-[47px] bg-white px-[0.7px] pt-[1.4px]  mx-[8px]  sm:h-[40px] text-shadow1  md:mt-[5px]  bg-transparent rounded-full    md:flex hidden "
+                      src={kiitlogo}
+                      alt="kiit logo"
+                    />
+                  </li>{" "}
+                </a>
+
+                <a href="https://ksac.kiit.ac.in/" target="_blank">
+                  <li>
+                    <img
+                      className="lg:h-[46px] h-[47px] rounded-full py-[5px]  bg-white mx-[8px]  lg:py-[5px] text-shadow1  box-shadow  md:mt-[5px] mt-2 "
+                      src={ksac}
+                      alt="KES LOGO"
+                    />
+                  </li>
+                </a>
+                <Link to="/">
+                  {" "}
+                  <li>
+                    <img
+                      className="lg:h-12 h-12   mx-[8px] text-shadow1 box-shadow md:mt-[5px] mt-2 "
+                      src={keslogo}
+                      alt="KES LOGO"
+                    />
+                  </li>
+                </Link>
+              </ul>
+            </div>
                         <div className="hidden  md:text-[10px] 2lg:text-[12.5px]   xl:text-[14px] md:flex md:text-center">
                             <Link to="/" className="xl:mx-[12px] lg:mx-[8px] 2lg:mx-[10px]  cursor-pointer mt-4  text-shadow  text-white box-shadow2 px-2  hover:text-blue-500 start  ">HOME</Link>
                             <Link to="/aboutus" className="xl:mx-[12px] lg:mx-[8px] 2lg:mx-[10px] cursor-pointer px-2  text-shadow1   mt-4 box-shadow2  text-blue-500 start transition duration-500">ABOUT US</Link>
