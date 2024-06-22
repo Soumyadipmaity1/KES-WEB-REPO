@@ -1,5 +1,6 @@
-import pro_dp from './dummy-nontech.png'
 import React from 'react';
+const pro_dp ='https://res.cloudinary.com/da3u4ukxz/image/upload/v1715837642/Dummy_tech_wunmoq.png'
+
 
 function IndProjectcard ({ img, title, name, id, github, linkedin, instagram, Document }) {
   return (
@@ -26,7 +27,7 @@ function IndProjectcard ({ img, title, name, id, github, linkedin, instagram, Do
           <div className="justify-center flex p-2 pb-4 mt-5">
           <a href={Document} target="_blank" rel="noopener noreferrer"> <button className="items-center text-center text-sm bg-white text-black p-1 px-3 rounded-full font-bold hover:bg-black hover:text-white">Read more <i className="fa-solid fa-arrow-right fa-fade"></i> </button></a>
           </div>
-        </div>
+        </div>    
       </div>
     </div>
   );
