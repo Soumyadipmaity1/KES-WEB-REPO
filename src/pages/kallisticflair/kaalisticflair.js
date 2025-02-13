@@ -202,6 +202,118 @@ const KallisticFlair = () => {
         "psNumber": "PS-2526",
         "theme": "Classic Elegance – Timeless and sophisticated",
         "details": "Highlight how platforms like Twitter, Facebook, and Instagram shape worldwide interactions."
+      },
+      {
+        "id": 27,
+        "statement": "AI in Everyday Life",
+        "category": "School of Computer Applications",
+        "psNumber": "PS-2527",
+        "theme": "Innovation in AI",
+        "details": "How AI is transforming industries like healthcare, education, and entertainment."
+      },
+      {
+        "id": 28,
+        "statement": "Cybersecurity for Smart Devices",
+        "category": "School of Computer Applications",
+        "psNumber": "PS-2528",
+        "theme": "Security & Privacy",
+        "details": "Securing IoT devices to protect personal data and privacy."
+      },
+      {
+        "id": 29,
+        "statement": "Cloud Computing in Business",
+        "category": "School of Computer Applications",
+        "psNumber": "PS-2529",
+        "theme": "Digital Transformation",
+        "details": "Benefits and risks of cloud technology for enterprises."
+      },
+      {
+        "id": 30,
+        "statement": "Quantum Computing's Potential",
+        "category": "School of Computer Engineering",
+        "psNumber": "PS-2530",
+        "theme": "Future of Computing",
+        "details": "The future of computing with quantum technology and its applications."
+      },
+      {
+        "id": 31,
+        "statement": "Impact of 5G on Networking",
+        "category": "School of Computer Engineering",
+        "psNumber": "PS-2531",
+        "theme": "Next-Gen Connectivity",
+        "details": "How 5G revolutionizes communication and connectivity."
+      },
+      {
+        "id": 32,
+        "statement": "Sustainable Computing",
+        "category": "School of Computer Engineering",
+        "psNumber": "PS-2532",
+        "theme": "Green Technology",
+        "details": "The role of energy-efficient technology in reducing computing's environmental impact."
+      },
+      {
+        "id": 33,
+        "statement": "Sustainable Smart Grids",
+        "category": "Electrical Engineering",
+        "psNumber": "PS-2533",
+        "theme": "Renewable Energy",
+        "details": "Innovations in renewable energy integration and grid stability."
+      },
+      {
+        "id": 34,
+        "statement": "Wireless Power Transfer",
+        "category": "Electrical Engineering",
+        "psNumber": "PS-2534",
+        "theme": "Advanced Power Systems",
+        "details": "Advancements and applications in inductive and resonant coupling."
+      },
+      {
+        "id": 35,
+        "statement": "High Voltage DC (HVDC) Systems",
+        "category": "Electrical Engineering",
+        "psNumber": "PS-2535",
+        "theme": "Efficient Power Transmission",
+        "details": "The future of long-distance power transmission."
+      },
+      {
+        "id": 36,
+        "statement": "AI in Embedded Systems",
+        "category": "Electronics Engineering",
+        "psNumber": "PS-2536",
+        "theme": "Real-Time AI",
+        "details": "Applications and challenges in real-time processing."
+      },
+      {
+        "id": 37,
+        "statement": "Quantum Computing in Electronics",
+        "category": "Electronics Engineering",
+        "psNumber": "PS-2537",
+        "theme": "Next-Gen Electronics",
+        "details": "The next frontier in computational power."
+      },
+      {
+        "id": 38,
+        "statement": "IoT for Smart Cities",
+        "category": "Electronics Engineering",
+        "psNumber": "PS-2538",
+        "theme": "Connected Infrastructure",
+        "details": "Enhancing urban infrastructure with connected devices."
+      },
+      {
+        "id": 39,
+        "statement": "6G and Beyond",
+        "category": "Electronics Engineering",
+        "psNumber": "PS-2539",
+        "theme": "Future of Wireless",
+        "details": "The future of ultra-fast, low-latency wireless communication."
+      },
+      {
+        "id": 40,
+        "statement": "Food Delivery",
+        "category": "School of Computer Engineering",
+        "psNumber": "PS-2540",
+        "theme": "Women Empowement",
+        "details": "In today's fast-paced world, individuals struggle to find time for meal preparation, leading to a rising demand for healthy, affordable home-cooked meals. Meanwhile, housewives and unemployed individuals lack opportunities to monetize their cooking skills. Existing food delivery services primarily focus on restaurant-prepared meals, often neglecting sustainability and affordability. The challenge is to develop a scalable platform that connects home chefs with customers seeking nutritious, home-cooked meals while ensuring efficient delivery, quality control, and financial viability. This solution must also incorporate sustainable packaging, optimized logistics, and a feedback mechanism to maintain customer satisfaction and support local communities."
       }
   ]);
   const [selectedProblem, setSelectedProblem] = useState(null);
