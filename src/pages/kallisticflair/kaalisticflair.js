@@ -314,7 +314,16 @@ const KallisticFlair = () => {
         "psNumber": "PS-2540",
         "theme": "Women Empowement",
         "details": "In today's fast-paced world, individuals struggle to find time for meal preparation, leading to a rising demand for healthy, affordable home-cooked meals. Meanwhile, housewives and unemployed individuals lack opportunities to monetize their cooking skills. Existing food delivery services primarily focus on restaurant-prepared meals, often neglecting sustainability and affordability. The challenge is to develop a scalable platform that connects home chefs with customers seeking nutritious, home-cooked meals while ensuring efficient delivery, quality control, and financial viability. This solution must also incorporate sustainable packaging, optimized logistics, and a feedback mechanism to maintain customer satisfaction and support local communities."
+      },
+      {
+        "id": 41,
+        "statement": "Iot for medical field ",
+        "category": "School of electronics ",
+        "psNumber": "PS-2541",
+        "theme": "Feasible iot devices",
+        "details":"Create a reliable, gesture-controlled communication system for the deaf and mute"
       }
+
   ]);
   const [selectedProblem, setSelectedProblem] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);

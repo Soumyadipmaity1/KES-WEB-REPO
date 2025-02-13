@@ -40,11 +40,11 @@ const Leads = [
     {
         name: 'Arthita Bhattacharya',
         id: '2204015',
-        imageUrl: '/leads/dummy-nontech.png',
+        imageUrl: '/leads/4015_ARTHITA BHATTACHARYA.jpg',
         position: 'Content Lead',
-        githubLink: 'https://github.com/example',
-        linkedinLink: 'https://linkedin.com/example',
-        instagramLink: 'https://instagram.com/example'
+        githubLink: 'https://github.com/Arththam2512',
+        linkedinLink: 'https://www.linkedin.com/in/arthita-bhattacharya-4a3787294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        instagramLink: 'https://www.instagram.com/rtheta_25?igsh=MW94eTZkeW4yang4Nw=='
     },
     {
         name: 'Manugeeth',
