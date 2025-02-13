@@ -1,5 +1,8 @@
 import React from "react";
 import EventCard from "../../components/eventcard/eventcard";
+import NavbarAchievement from "../../components/navbar2/navbarAchievement";
+import NavbarStuBlogs from "../../components/navbar2/navbarStublogs";
+
 
 const events = [
   {
@@ -44,7 +47,7 @@ const events = [
     category: "Group",
     imageSrc: "../event/eventimages/Kallisticflair.png",
     contact: "Contact: Ravi Sharma +91 9988776655",
-    path: "../kallisticflair/kaalisticflair.js",
+    path: "/events/kallisticflair",
   },
   {
     title: "Kurrent Flow",
@@ -62,6 +65,7 @@ const events = [
 const EventsPage = () => {
   return (
     <div className="min-h-screen bg-purple-900 text-white p-10">
+      <NavbarStuBlogs/>
       <h1 className="text-4xl font-bold text-center mb-8">Upcoming Events</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
         {events.map((event, index) => (

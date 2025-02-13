@@ -71,10 +71,10 @@ function NavbarHome() {
                 ABOUT US
               </Link>
               <Link
-                to="/studentblogs"
+                to="/events"
                 className="xl:mx-[12px] 2lg:mx-[10px] lg:mx-[8px] cursor-pointer px-2 mt-4 text-shadow box-shadow2 text-white hover:text-green-400 start transition duration-500  "
               >
-                STUDENT BLOGS
+                EVENTS
               </Link>
               <Link
                 to="/projects"
@@ -135,10 +135,10 @@ function NavbarHome() {
           </li>
           <li>
             <Link
-              to="/studentblogs"
+              to="/events"
               className="block text-sm px-2 py-4  hover:bg-green-600 hover:font-semibold text-slate-300  border-slate-600 border-[0.5px]  transition duration-300  "
             >
-              STUDENT BLOGS
+              EVENTS
             </Link>
           </li>
           <li>

@@ -1,8 +1,33 @@
 import { useState, useEffect } from "react";
 import { Download } from "lucide-react";
 
-const EventPage = () => {
-  const [problemStatements, setProblemStatements] = useState([]);
+const KallisticFlair = () => {
+  const [problemStatements, setProblemStatements] = useState([
+    {
+      id: 1,
+      statement: "AI-driven cybersecurity solutions",
+      category: "BCA,MCA",
+      psNumber: "PS-1",
+      theme: "Theme 1",
+      details: "As technology advances, organizations are increasingly at risk of sophisticated cyber threats that can compromise sensitive data, disrupt operations, and damage their reputation. The traditional approach to cybersecurity, which relies heavily on predefined rule sets and signature-based detection, struggles to keep up with the constantly evolving threat landscape. These conventional methods often fail to detect zero-day vulnerabilities and advanced persistent threats (APTs)."
+    },
+    {
+      id: 2,
+      statement: "Cloud computing and data privacy",
+      category: "Category 2",
+      psNumber: "PS-2",
+      theme: "Theme 2",
+      details: "Detailed description for problem 2."
+    },
+    {
+      id: 3,
+      statement: "Quantum computing and its future",
+      category: "Category 3",
+      psNumber: "PS-3",
+      theme: "Theme 3",
+      details: "Detailed description for problem 3."
+    }
+  ]);
   const [selectedProblem, setSelectedProblem] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -12,14 +37,8 @@ const EventPage = () => {
   const [sortConfig, setSortConfig] = useState(null);
 
   useEffect(() => {
-    fetch("/problemStatements.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setProblemStatements(data);
-        setFilteredStatements(data);
-      })
-      .catch((error) => console.error("Error fetching problem statements:", error));
-  }, []);
+    setFilteredStatements(problemStatements);
+  }, [problemStatements]);
 
   useEffect(() => {
     const filteredData = problemStatements.filter((problem) =>
@@ -161,4 +180,4 @@ const EventPage = () => {
   );
 };
 
-export default EventPage;
+export default KallisticFlair;
