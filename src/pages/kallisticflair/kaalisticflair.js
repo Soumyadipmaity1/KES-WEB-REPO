@@ -432,7 +432,7 @@ const KallisticFlair = () => {
           </table>
         </div>
 
-        <div className="flex flex-col items-center mt-4">
+        <div className="flex justify-center items-center mt-4">
           {Array.from({ length: Math.ceil(filteredStatements.length / itemsPerPage) }, (_, index) => (
             <button
               key={index}
