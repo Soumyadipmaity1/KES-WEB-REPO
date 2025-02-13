@@ -59,7 +59,7 @@ function NavbarAboutus() {
                         <div className="hidden  md:text-[10px] 2lg:text-[12.5px]   xl:text-[14px] md:flex md:text-center">
                             <Link to="/" className="xl:mx-[12px] lg:mx-[8px] 2lg:mx-[10px]  cursor-pointer mt-4  text-shadow  text-white box-shadow2 px-2  hover:text-blue-500 start  ">HOME</Link>
                             <Link to="/aboutus" className="xl:mx-[12px] lg:mx-[8px] 2lg:mx-[10px] cursor-pointer px-2  text-shadow1   mt-4 box-shadow2  text-blue-500 start transition duration-500">ABOUT US</Link>
-                            <Link to="/studentblogs" className="xl:mx-[12px] lg:mx-[8px] 2lg:mx-[10px] cursor-pointer px-2 mt-4 text-shadow box-shadow2 text-white hover:text-blue-500 start transition duration-500  ">STUDENT BLOGS</Link>
+                            <Link to="/events" className="xl:mx-[12px] lg:mx-[8px] 2lg:mx-[10px] cursor-pointer px-2 mt-4 text-shadow box-shadow2 text-white hover:text-blue-500 start transition duration-500  ">EVENTS</Link>
                             <Link to="/projects" className="xl:mx-[12px] lg:mx-[8px] 2lg:mx-[10px]  cursor-pointer text-shadow px-2 mt-4  box-shadow2 text-white hover:text-blue-500 start transition duration-500">PROJECTS</Link>
                             <Link to="/achievement" className="xl:ml-[10px] lg:mx-[8px] mt-4  cursor-pointer box-shadow3 px-2 text-white hover:text-blue-500 text-shadow start transition duration-500">ACHIEVEMENTS</Link>
                         </div>
@@ -77,7 +77,7 @@ function NavbarAboutus() {
                 <ul className="">
                     <li className="active"><Link to="/" className="block text-sm px-2 py-4 hover:bg-blue-600 text-slate-300 hover:font-semibold     transition duration-300 ">HOME</Link></li>
                     <li><Link to="/aboutus" className="block  text-sm px-2 py-4 bg-blue-700  text-white  font-bold  border-slate-600 border-[0.5px]  transition duration-300">ABOUT US</Link></li>
-                    <li><Link to="/studentblogs" className="block text-sm px-2 py-4  hover:bg-blue-600 hover:font-semibold text-slate-300  border-slate-600 border-[0.5px]  transition duration-300  ">STUDENT BLOGS</Link></li>
+                    <li><Link to="/events" className="block text-sm px-2 py-4  hover:bg-blue-600 hover:font-semibold text-slate-300  border-slate-600 border-[0.5px]  transition duration-300  ">EVENTS</Link></li>
                     <li><Link to="/projects" className="block text-sm px-2 py-4 hover:bg-blue-600 hover:font-semibold text-slate-300  border-slate-600 border-[0.5px]  transition duration-300 ">PROJECTS</Link></li>
                     <li><Link to="/achievement" className="block text-sm px-2 py-4 border-slate-600 hover:font-semibold border-[0.5px] hover:bg-sky-600 text-white ">ACHIEVEMENTS</Link></li>
                 </ul>
