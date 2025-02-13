@@ -1,12 +1,10 @@
-const shyam = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835040/Shayam_Lead_e26gam.png'
-
 const IDCards = () => {
   const users = [
     {
       name: "Shyam Barua",
       rollNo: "22051108",
       branch: "Computer Science & Engineering",
-      image: shyam,
+      image: '/asst/Shyam.jpg',
       github: "https://github.com/Shyambarua",
       instagram: "https://instagram.com/djdemoxit",
       linkedin: "https://linkedin.com/in/shyam-barua",
@@ -14,20 +12,20 @@ const IDCards = () => {
     {
       name: "Rohit Chaurasia",
       rollNo: "2106111",
-      branch: "Information Technology",
-      image: "/Kes Images/AboutUs/Dev.png",
+      branch: "Electrical Engineering",
+      image: "/asst/rohit.jpg",
       github: "https://github.com/johndoe",
       instagram: "https://instagram.com/johndoe",
       linkedin: "https://linkedin.com/in/johndoe",
     },
     {
       name: "Swadhin Sarangi",
-      rollNo: "2106111",
-      branch: "Information Technology",
-      image: "/Kes Images/AboutUs/Dev.png",
-      github: "https://github.com/johndoe",
-      instagram: "https://instagram.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
+      rollNo: "2204072",
+      branch: "Electronics and telecommunication ",
+      image: "/asst/Swadhin Sarangi.jpg",
+      github: "https://github.com/SarangiSwadhin",
+      instagram: "https://www.linkedin.com/in/swadhin-sarangi-4454862b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedin: "https://www.instagram.com/acassianswadhin10?igsh=NnRlZm84MHZnc3N2",
     },
   ];
 

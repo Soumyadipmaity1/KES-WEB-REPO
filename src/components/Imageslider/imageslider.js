@@ -6,7 +6,6 @@ const image1 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834851/sl
 const image2 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835242/slide_src2_oafykk.jpg'
 const image3 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835243/slide_src3a_mkgyfz.jpg'
 const image4 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834864/slide_src4aa_bw9btb.png'
-
 const image5 = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715834858/slide_src5aa_fcdxgo.png'
 
 
@@ -48,6 +47,11 @@ const ImageSlider = () => {
         <div>
 
           <img src={image5} alt="Slide 5" style={{ width: '100%' }} />
+        </div>
+
+        <div>
+
+          <img src='/DSC_0953.JPG' alt="Slide 5" style={{ width: '100%' }} />
         </div>
         
       </Slider>

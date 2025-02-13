@@ -1,5 +1,4 @@
 const dev = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835037/dev_kpv9mi.png'
-const pranjal = '/Kes Images/AboutUs/AsstC/pranjal.svg'
 
 const IDCards = () => {
   const users = [
@@ -7,10 +6,10 @@ const IDCards = () => {
       name: "Pranjal",
       rollNo: "21051835",
       branch: "Computer Science & Engineering",
-      image: pranjal,
-      github: "https://github.com/shyam-barua",
-      instagram: "https://instagram.com/shyam.barua",
-      linkedin: "https://linkedin.com/in/shyam-barua",
+      image: '/coordinator/pranjal.jpg',
+      github: "https://github.com/example",
+      instagram: "https://instagram.com/example",
+      linkedin: "https://linkedin.com/in/example",
     },
     {
       name: "Dev Dashora",
