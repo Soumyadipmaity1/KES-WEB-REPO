@@ -29,6 +29,25 @@ const Leads = [
         instagramLink: 'https://instagram.com/example'
     },
     {
+        name: 'Soumyadip Maity ',
+        id: '22053029',
+        imageUrl: 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1739476596/me4_p1iqgy.jpg',
+        position: 'Web DEV Lead',
+        githubLink: 'https://github.com/Soumyadipmaity1',
+        linkedinLink: 'https://www.linkedin.com/in/soumyadip-maity-a77b41282/',
+        instagramLink: 'https://instagram.com/smilingsoumya1'
+   },
+    {
+        name: 'Monu Kumar',
+        id: '2205048',
+        imageUrl: '/leads/5048_Monu_Kumar.jpg',
+        position: 'Web DEV Lead',
+        githubLink: 'https://github.com/Monu4kumar',
+        linkedinLink: 'https://www.linkedin.com/in/monu-kumar-0585a7260',
+        instagramLink: 'https://www.instagram.com/monu.22.singh?igsh=MXBjNGdtamdqaWNjMg=='
+    },
+
+    {
         name: 'Sweta Kumari',
         id: '2206143',
         imageUrl: 'leads/dummy_nontech_f.png',
@@ -91,24 +110,7 @@ const Leads = [
         linkedinLink: 'https://linkedin.com/example',
         instagramLink: 'https://instagram.com/example'
     },
-    {
-        name: 'Monu Kumar',
-        id: '2205048',
-        imageUrl: '/leads/5048_Monu_Kumar.jpg',
-        position: 'Web DEV Lead',
-        githubLink: 'https://github.com/Monu4kumar',
-        linkedinLink: 'https://www.linkedin.com/in/monu-kumar-0585a7260',
-        instagramLink: 'https://www.instagram.com/monu.22.singh?igsh=MXBjNGdtamdqaWNjMg=='
-    },
-    {
-        name: 'Soumyadip Maity ',
-        id: '22053029',
-        imageUrl: '',
-        position: 'Web DEV Lead',
-        githubLink: 'https://github.com/example',
-        linkedinLink: 'https://linkedin.com/example',
-        instagramLink: 'https://instagram.com/example'
-    },
+   
     
 ];
 
