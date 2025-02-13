@@ -1,34 +1,20 @@
-const Akarsh = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835031/Akarsh_techLead_bydqvs.png'
 const aman = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835032/aman_xf6kfc.png'
-const Abhishek = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835030/Abhishek_vqbbc7.png'
-const shyam = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835040/Shayam_Lead_e26gam.png'
-const dev = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835037/dev_kpv9mi.png'
-const deepika = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835035/deepika_o3ddyw.png'
-const debismita = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835033/debismita_hc4nah.png'
+
 const junaid = 'https://res.cloudinary.com/da3u4ukxz/image/upload/v1715835038/junaid_advwld.png'
 const Leads = [
     {
-        name: 'Aakarsh Kr Singh',
-        id: '21052721',
-        imageUrl: Akarsh,
+        name: 'Shivansh Mishra',
+        id: '21051257',
         position: 'Tech Leads',
+        imageUrl: aman,
         githubLink: 'https://github.com/example',
         linkedinLink: 'https://linkedin.com/example',
         instagramLink: 'https://instagram.com/example'
     },
     {
-        name: 'Abhishek Ghosh',
-        id: '2107033',
-        imageUrl: Abhishek ,
-    position: 'Tech Leads',
-        githubLink: 'https://github.com/example',
-        linkedinLink: 'https://linkedin.com/example',
-        instagramLink: 'https://instagram.com/example',
-    },
-    {
         name: 'Kumar Aman',
         id: '2205043',
-        position: 'Asst. Tech Leads',
+        position: 'Tech Leads',
         imageUrl: aman,
         githubLink: 'https://github.com/example',
         linkedinLink: 'https://linkedin.com/example',
@@ -38,43 +24,88 @@ const Leads = [
         name: 'Junaid Ul Islam',
         id: '2205472',
         imageUrl: junaid,
-        position: 'Asst. Tech Leads',
+        position: 'Tech Leads',
         githubLink: 'https://github.com/example',
         linkedinLink: 'https://linkedin.com/example',
         instagramLink: 'https://instagram.com/example'
     },
     {
-        name: 'Shyam Barua',
-        id: '22051108',
-        imageUrl: shyam,
+        name: 'Sweta Kumari',
+        id: '2206143',
+        imageUrl: '',
         position: 'Graphics Lead',
         githubLink: 'https://github.com/example',
         linkedinLink: 'https://linkedin.com/example',
         instagramLink: 'https://instagram.com/example'
     },
     {
-        name: 'Dev Dashora',
+        name: 'Arthita ',
         id: '2106111',
-        imageUrl: dev,
+        imageUrl: '',
         position: 'Content Lead',
         githubLink: 'https://github.com/example',
         linkedinLink: 'https://linkedin.com/example',
         instagramLink: 'https://instagram.com/example'
     },
     {
-        name: 'Debismita Dey',
+        name: 'Manugeeth',
         id: '21052831',
-        imageUrl: debismita,
+        imageUrl: '',
         position: 'Social Media Lead',
         githubLink: 'https://github.com/example',
         linkedinLink: 'https://linkedin.com/example',
         instagramLink: 'https://instagram.com/example'
     },
     {
-        name: 'Deepika Kumari',
-        id: '2004016',
-        imageUrl: deepika,
-        position: 'Non-Tech Leads',
+        name: 'Mritunjay Mahato',
+        id: '22053789',
+        imageUrl: '',
+        position: 'R&D Lead',
+        githubLink: 'https://github.com/example',
+        linkedinLink: 'https://linkedin.com/example',
+        instagramLink: 'https://instagram.com/example'
+    },
+    {
+        name: 'Sweta Kumari',
+        id: '2206143',
+        imageUrl: '',
+        position: 'AI/ML Lead',
+        githubLink: 'https://github.com/example',
+        linkedinLink: 'https://linkedin.com/example',
+        instagramLink: 'https://instagram.com/example'
+    },
+    {
+        name: 'Sweta Kumari',
+        id: '2206143',
+        imageUrl: '',
+        position: 'AI/ML Lead',
+        githubLink: 'https://github.com/example',
+        linkedinLink: 'https://linkedin.com/example',
+        instagramLink: 'https://instagram.com/example'
+    },
+    {
+        name: 'Sweta Kumari',
+        id: '2206143',
+        imageUrl: '',
+        position: 'Web DEV Lead',
+        githubLink: 'https://github.com/example',
+        linkedinLink: 'https://linkedin.com/example',
+        instagramLink: 'https://instagram.com/example'
+    },
+    {
+        name: 'Sweta Kumari',
+        id: '2206143',
+        imageUrl: '',
+        position: 'Web DEV Lead',
+        githubLink: 'https://github.com/example',
+        linkedinLink: 'https://linkedin.com/example',
+        instagramLink: 'https://instagram.com/example'
+    },
+    {
+        name: 'Sweta Kumari',
+        id: '2206143',
+        imageUrl: '',
+        position: 'APP DEV Lead',
         githubLink: 'https://github.com/example',
         linkedinLink: 'https://linkedin.com/example',
         instagramLink: 'https://instagram.com/example'

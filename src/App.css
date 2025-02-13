@@ -17,6 +17,10 @@ height: auto;
 
 }
 
+.back{
+  background-image: url(../public/event_banner.png);
+}
+
 
 
    .text-shadow1{
