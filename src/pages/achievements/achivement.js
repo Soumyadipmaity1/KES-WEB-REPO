@@ -2,7 +2,7 @@ import AchieveStart from "../../components/achievementstart/achievestart";
 import NavbarAchievement from "../../components/navbar2/navbarAchievement";
 import AchieveSummary from "../../components/AchieveSummary/AchiveSummary";
 import AchievementCard from "../../components/AchieveCarda/AchieveCards";
-import AchieveFlow from "../../components/achieveflow/achieveflow";
+// import AchieveFlow from "../../components/achieveflow/achieveflow";
 // import AchieveImage from "../../components/AchieveCarda/AchieveImage";
 import HelplineButton from "../../components/HelplineButton/Helpline";
 import Footer from "../../components/footer/footer";
@@ -49,7 +49,7 @@ export default function Achievement() {
 <div className="lg:hidden">
 <SummaryCards/>
 </div>
-      <AchieveFlow />
+      {/* <AchieveFlow /> */}
       <div className="lg:block hidden ">
         <div className="grid grid-cols-2 cursor-pointer xl:px-16 lg:m-8 hover:bg-gray-900  achieve-shadow rounded-xl   px-10 text-justify py-8">
           <AchievementCard
